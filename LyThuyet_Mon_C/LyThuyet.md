@@ -13,8 +13,7 @@
 - 08 Workshops (W)  (10%)
 - 01 Bài Tập (AS)  (10%)
 - 01 Kỳ Thi Thực Hành (PE)  (40%)
-  (Có thể thi lại kỳ thi thực hành chỉ khi điểm PE < 4)
-- Kỳ Thi Cuối (FE)  (30%)
+- Kỳ Thi Cuối (FE)  (30%) (Co The Retake lai FE) 
 
 ### Công Thức Tính Điểm Tổng:
 Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3*FE
