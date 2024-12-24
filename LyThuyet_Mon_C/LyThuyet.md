@@ -1,4 +1,3 @@
-
 # Giáo Trình Lập Trình C (PRF192)
 
 ## Giới Thiệu
@@ -7,24 +6,30 @@
 - Môn này nếu các bạn không học được thì không sao cả, lên môn Java tìm lại đam mê bằng cách học giải thuật, tạo ra 1 cái gì đó thú vị như 1 trang web, 1 bài toán hình trái tim :>, nói chung tìm đam mê trong môn này nhé chúc mọi người học tốt.
 
 - C được sáng tác bởi Dennis Ritchie vào năm 1972, và được phát hành lần đầu tiên vào năm 1978. (học để làm FE :))))))
+
 ## Điểm Số Tối Đa: 10
+
 ### Đánh Giá Liên Tục:
-- 02 Quiz (Q)   (10%)
-- 08 Workshops (W)  (10%)
-- 01 Bài Tập (AS)  (10%)
-- 01 Kỳ Thi Thực Hành (PE)  (40%)
-- Kỳ Thi Cuối (FE)  (30%) (Co The Retake lai FE) 
+
+- 02 Quiz (Q) (10%)
+- 08 Workshops (W) (10%)
+- 01 Bài Tập (AS) (10%)
+- 01 Kỳ Thi Thực Hành (PE) (40%)
+- Kỳ Thi Cuối (FE) (30%) (Co The Retake lai FE)
 
 ### Công Thức Tính Điểm Tổng:
-Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3*FE
+
+Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3\*FE
 
 ### Điều Kiện Đậu:
+
 - Mỗi thành phần đánh giá liên tục phải > 0
 - Kỳ Thi Thực Hành >= 4 (PE thi ở tuần 8-9, và 1 mạng)
-- Điểm Kỳ Thi Cuối ≥ 4  (FE thi ở tuần 11, và 2 mạng)
+- Điểm Kỳ Thi Cuối ≥ 4 (FE thi ở tuần 11, và 2 mạng)
 - Tổng điểm ≥ 5
 
 ### Quy Định Thi Lại:
+
 - FE chỉ được thi lại khi không đạt yêu cầu.
 - Có thể xin cải thiện điểm bằng cách gửi đơn.
 
@@ -32,19 +37,21 @@ Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3*FE
 
 # Mục Lục (Một số cái tag ở dưới bị lỏ do trong quá trình cập nhật thay đổi bị tag nên bấm không được cái menu)
 
-
 ## [Chương 1: Cài Đặt Môi Trường Lập Trình C (FUOVERFLOW - DO NOT COPY)](#chương-1-cài-đặt-môi-trường-lập-trình-c)
+
 - [1.1. Giới thiệu về môi trường lập trình (FUOVERFLOW - DO NOT COPY)](#11-giới-thiệu-về-môi-trường-lập-trình)
 - [1.2. Cài đặt DEV-C++ (FUOVERFLOW - DO NOT COPY)](#12-cài-đặt-dev-c)
 - [1.3. Cấu trúc giao diện DEV-C++ (FUOVERFLOW - DO NOT COPY)](#13-cấu-trúc-giao-diện-dev-c)
 
 ## [Chương 2: Viết Chương Trình Hello World (FUOVERFLOW - DO NOT COPY)](#chương-2-viết-chương-trình-hello-world)
+
 - [2.1. Giới thiệu về chương trình Hello World (FUOVERFLOW - DO NOT COPY)](#21-giới-thiệu-về-chương-trình-hello-world)
 - [2.2. Cú pháp cơ bản (FUOVERFLOW - DO NOT COPY)](#22-cú-pháp-cơ-bản)
 - [2.3. Biên dịch và chạy chương trình (FUOVERFLOW - DO NOT COPY)](#23-biên-dịch-và-chạy-chương-trình)
 - [2.4. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#24-bài-tập-thực-hành)
 
 ## [Chương 3: Biến và Kiểu Dữ Liệu (FUOVERFLOW - DO NOT COPY)](#chương-3-biến-và-kiểu-dữ-liệu)
+
 - [3.1. Giới thiệu về biến (FUOVERFLOW - DO NOT COPY)](#31-giới-thiệu-về-biến)
 - [3.2. Các kiểu dữ liệu cơ bản (FUOVERFLOW - DO NOT COPY)](#32-các-kiểu-dữ-liệu-cơ-bản)
 - [3.3. Khai báo và khởi tạo biến (FUOVERFLOW - DO NOT COPY)](#33-khai-báo-và-khởi-tạo-biến)
@@ -53,18 +60,21 @@ Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3*FE
 - [3.6. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#36-bài-tập-thực-hành)
 
 ## [Chương 4: Đầu Vào và Đầu Ra (FUOVERFLOW - DO NOT COPY)](#chương-4-đầu-vào-và-đầu-ra)
+
 - [4.1. Giới thiệu về đầu vào và đầu ra (FUOVERFLOW - DO NOT COPY)](#41-giới-thiệu-về-đầu-vào-và-đầu-ra)
 - [4.2. Sử dụng hàm printf (FUOVERFLOW - DO NOT COPY)](#42-sử-dụng-hàm-printf)
 - [4.3. Sử dụng hàm scanf (FUOVERFLOW - DO NOT COPY)](#43-sử-dụng-hàm-scanf)
 - [4.4. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#44-bài-tập-thực-hành)
 
 ## [Chương 5: Biểu Thức và Toán Tử (FUOVERFLOW - DO NOT COPY)](#chương-5-biểu-thức-và-toán-tử)
+
 - [5.1. Giới thiệu về biểu thức (FUOVERFLOW - DO NOT COPY)](#51-giới-thiệu-về-biểu-thức)
 - [5.2. Các loại toán tử (FUOVERFLOW - DO NOT COPY)](#52-các-loại-toán-tử)
 - [5.3. Độ ưu tiên của toán tử (FUOVERFLOW - DO NOT COPY)](#53-độ-ưu-tiên-của-toán-tử)
 - [5.4. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#54-bài-tập-thực-hành)
 
 ## [Chương 6: Logic Cơ Bản và Cấu Trúc Rẽ Nhánh (FUOVERFLOW - DO NOT COPY)](#chương-6-logic-cơ-bản-và-cấu-trúc-rẽ-nhánh)
+
 - [6.1. Giới thiệu về cấu trúc logic (FUOVERFLOW - DO NOT COPY)](#61-giới-thiệu-về-cấu-trúc-logic)
 - [6.2. Mệnh đề If-Else (FUOVERFLOW - DO NOT COPY)](#62-mệnh-đề-if-else)
 - [6.3. Câu lệnh Switch-Case (FUOVERFLOW - DO NOT COPY)](#63-câu-lệnh-switch-case)
@@ -72,12 +82,14 @@ Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3*FE
 - [6.5. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#65-bài-tập-thực-hành)
 
 ## [Chương 7: Vòng Lặp (FUOVERFLOW - DO NOT COPY)](#chương-7-vòng-lặp)
+
 - [7.1. Vòng lặp For (FUOVERFLOW - DO NOT COPY)](#71-vòng-lặp-for)
 - [7.2. Vòng lặp While và Do-While (FUOVERFLOW - DO NOT COPY)](#72-vòng-lặp-while-và-do-while)
 - [7.3. Câu lệnh Break và Continue (FUOVERFLOW - DO NOT COPY)](#73-câu-lệnh-break-và-continue)
 - [7.4. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#74-bài-tập-thực-hành)
 
 ## [Chương 8: Mảng (FUOVERFLOW - DO NOT COPY)](#chương-8-mảng)
+
 - [8.1. Giới thiệu về mảng (FUOVERFLOW - DO NOT COPY)](#81-giới-thiệu-về-mảng)
 - [8.2. Khai báo và sử dụng mảng (FUOVERFLOW - DO NOT COPY)](#82-khai-báo-và-sử-dụng-mảng)
 - [8.3. Mảng hai chiều (FUOVERFLOW - DO NOT COPY)](#83-mảng-hai-chiều)
@@ -85,6 +97,7 @@ Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3*FE
 - [8.5. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#85-bài-tập-thực-hành)
 
 ## [Chương 9: Chuỗi (FUOVERFLOW - DO NOT COPY)](#chương-9-chuỗi)
+
 - [9.1. Giới thiệu về chuỗi (FUOVERFLOW - DO NOT COPY)](#91-giới-thiệu-về-chuỗi)
 - [9.2. Null-String/C-String (FUOVERFLOW - DO NOT COPY)](#92-null-stringc-string)
 - [9.3. Khai báo và khởi tạo chuỗi (FUOVERFLOW - DO NOT COPY)](#93-khai-báo-và-khởi-tạo-chuỗi)
@@ -96,6 +109,7 @@ Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3*FE
 - [9.9. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#99-bài-tập-thực-hành)
 
 ## [Chương 10: Con Trỏ (FUOVERFLOW - DO NOT COPY)](#chương-10-con-trỏ)
+
 - [10.1. Giới thiệu về con trỏ (FUOVERFLOW - DO NOT COPY)](#101-giới-thiệu-về-con-trỏ)
 - [10.2. Khai báo và sử dụng con trỏ (FUOVERFLOW - DO NOT COPY)](#102-khai-báo-và-sử-dụng-con-trỏ)
 - [10.3. Toán tử con trỏ (FUOVERFLOW - DO NOT COPY)](#103-toán-tử-con-trỏ)
@@ -103,23 +117,27 @@ Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3*FE
 - [10.5. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#105-bài-tập-thực-hành)
 
 ## [Chương 11: Thư Viện Chuẩn (FUOVERFLOW - DO NOT COPY)](#chương-11-thư-viện-chuẩn)
+
 - [11.1. Giới thiệu về thư viện chuẩn (FUOVERFLOW - DO NOT COPY)](#111-giới-thiệu-về-thư-viện-chuẩn)
 - [11.2. Các thư viện thông dụng (FUOVERFLOW - DO NOT COPY)](#112-các-thư-viện-thông-dụng)
 - [11.3. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#113-bài-tập-thực-hành)
 
 ## [Chương 12: Module và Hàm (FUOVERFLOW - DO NOT COPY)](#chương-12-module-và-hàm)
+
 - [12.1. Giới thiệu về module (FUOVERFLOW - DO NOT COPY)](#121-giới-thiệu-về-module)
 - [12.2. Tạo và sử dụng module (FUOVERFLOW - DO NOT COPY)](#122-tạo-và-sử-dụng-module)
 - [12.3. Các loại hàm (FUOVERFLOW - DO NOT COPY)](#123-các-loại-hàm)
 - [12.4. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#124-bài-tập-thực-hành)
 
 ## [Chương 13: Hàm Đệ Quy (FUOVERFLOW - DO NOT COPY)](#chương-13-hàm-đệ-quy)
+
 - [13.1. Giới thiệu về hàm đệ quy (FUOVERFLOW - DO NOT COPY)](#131-giới-thiệu-về-hàm-đệ-quy)
 - [13.2. Cú pháp hàm đệ quy (FUOVERFLOW - DO NOT COPY)](#132-cú-pháp-hàm-đệ-quy)
 - [13.3. Ví dụ về hàm đệ quy (FUOVERFLOW - DO NOT COPY)](#133-ví-dụ-về-hàm-đệ-quy)
 - [13.4. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#134-bài-tập-thực-hành)
 
 ## [Chương 14: Cấu Trúc Dữ Liệu Nâng Cao (FUOVERFLOW - DO NOT COPY)](#chương-14-cấu-trúc-dữ-liệu-nâng-cao)
+
 - [14.1. Giới thiệu về cấu trúc dữ liệu nâng cao (FUOVERFLOW - DO NOT COPY)](#141-giới-thiệu-về-cấu-trúc-dữ-liệu-nâng-cao)
 - [14.2. Danh sách liên kết (FUOVERFLOW - DO NOT COPY)](#142-danh-sách-liên-kết)
 - [14.3. Cây (FUOVERFLOW - DO NOT COPY)](#143-cây)
@@ -173,17 +191,20 @@ int main() {
 
 **Giải thích đơn giản:**
 
-1. `#include <stdio.h>`: 
+1. `#include <stdio.h>`:
+
    - Giống như khi bạn muốn nấu ăn, bạn cần lấy đồ trong tủ bếp ra
    - Ở đây, `stdio.h` như một "tủ đồ" chứa sẵn các công cụ hữu ích
    - Chúng ta cần nó vì nó chứa công cụ `printf` để in chữ ra màn hình
 
 2. `int main() { }`:
+
    - Đây là nơi chương trình bắt đầu chạy
    - Giống như cánh cửa vào nhà, mọi chương trình C đều phải có `main`
    - Mọi code của bạn sẽ viết trong cặp dấu ngoặc nhọn `{ }`
 
 3. `printf("Hello, World!\n");`:
+
    - Đây là câu lệnh để in chữ ra màn hình
    - Nội dung trong dấu ngoặc kép `" "` sẽ được in ra
    - `\n` là ký hiệu để xuống dòng
@@ -193,11 +214,13 @@ int main() {
    - Giống như khi bạn nói "xong rồi!"
 
 > 💡 **Lưu ý quan trọng:**
+>
 > - Mỗi câu lệnh phải kết thúc bằng dấu chấm phẩy (;)
 > - Không được quên viết `#include <stdio.h>` khi muốn dùng `printf`
 > - Code phải được viết trong hàm `main`, nếu viết ngoài thì đợi học tới chương function nhé.
 
 **Kết quả khi chạy:**
+
 ```
 Hello, World!
 ```
@@ -233,6 +256,7 @@ Hello, World!
 ### 3.1. Giới Thiệu về Biến
 
 Biến là một vùng nhớ trong máy tính được đặt tên để lưu trữ dữ liệu. Trong C, bạn phải khai báo biến trước khi sử dụng. Chính xác hơn, hãy tưởng tượng bạn muốn tính a + b đi thì người ngoài không biết a, b là cái gì thì bạn phải khai báo nó. Lên java vui hơn nữa, mất gốc phần này thì java khó cíu lắm =))
+
 ### 3.2. Các Kiểu Dữ Liệu Cơ Bản
 
 #### 3.2.1. Kiểu Số Nguyên (Integer)
@@ -240,8 +264,9 @@ Biến là một vùng nhớ trong máy tính được đặt tên để lưu tr
 Kiểu số nguyên dùng để lưu trữ các số không có phần thập phân. Ví dụ: 1, 2, 3, -5, 100,...
 
 Trong C, kiểu số nguyên phổ biến nhất là `int`:
+
 - `int` dùng để lưu số nguyên (có thể là số âm hoặc số dương)
-- Ví dụ: 
+- Ví dụ:
   - int tuoi = 18;
   - int soHocSinh = 40;
   - int nhiepDo = -5;
@@ -251,44 +276,50 @@ Trong C, kiểu số nguyên phổ biến nhất là `int`:
 ### Cách sử dụng printf
 
 #### 1. In số trực tiếp
+
 ```c
 printf("79");     // In ra: 79
 ```
 
 #### 2. In số qua biến
+
 ```c
 int a = 79; // Coi ở mục 3.4 để hiểu cái này là gì nhé
 printf("%d", a);  // In ra: 79
 ```
 
 **Tại sao phải dùng %d?**
+
 - Giống như phong bì thư, `%d` là "địa chỉ" để printf biết phải đặt số vào đâu
 - `%d` là ký hiệu cho số nguyên (digit)
 
 **Ví dụ thực tế về integer:**
+
 ```c
 #include <stdio.h>
 
 int main() {
     int tuoi = 18; // Coi ở mục 3.4 để hiểu cái này là gì nhé
-    
+
     // Cách 1: In trực tiếp (không linh hoạt)
     printf("18 tuoi");
-    
+
     // Cách 2: In qua biến (linh hoạt hơn có thể thay đổi giá trị nhanh chóng)
     printf("%d tuoi", tuoi);
-    
+
     return 0;
 }
 ```
 
 > 💡 **Các ký hiệu thường dùng trong printf:**
+>
 > - `%d` : cho số nguyên (int)
 > - `%f` : cho số thập phân (float)
 > - `%c` : cho ký tự đơn (char)
 > - `%s` : cho chuỗi ký tự (string)
 
 **Ví dụ với nhiều kiểu dữ liệu (Sẽ học ở dưới):**
+
 ```c
 int tuoi = 18;
 float diem = 9.5;
@@ -299,12 +330,14 @@ printf("Diem: %.1f\n", diem);   // In số thập phân
 printf("Loai: %c\n", xepLoai);  // In ký tự
 ```
 
-> 🔑 **Lưu ý:** 
+> 🔑 **Lưu ý:**
+>
 > - Số lượng `%d`, `%f`, `%c` phải bằng số lượng biến sau dấu phẩy
 > - `\n` dùng để xuống dòng
 
 Câu hỏi đặt ra là:
 What will be the output of the following C code?
+
 ```c
 #include <stdio.h>
 void main()
@@ -317,16 +350,20 @@ A. Compile time error
 C. 103
 D. 10 3 somegarbage value
 ```
+
 - Đáp án: C
-- Giải thích: 
+- Giải thích:
   - `%d %d %d` là 3 biến, nhưng chỉ có 2 biến được in ra (2 cái %d) nên thằng k sẽ không bao giờ được in ra.
 
 #### 3.2.2. Kiểu Số Thực (Số có dấu phẩy)
+
 Dùng để lưu các số có phần thập phân như 3.14, 9.8, 5.5,...
+
 - Chúng ta thường dùng kiểu `float`
 - Ví dụ: `float diemToan = 8.5;`
 
 **Ví dụ đơn giản:**
+
 ```c
 #include <stdio.h>
 
@@ -339,16 +376,21 @@ int main() {
 
 // Kết quả: Diem mon toan: 8.5
 ```
+
 ### Cách in số thập phân trong C
+
 **1. Cách cơ bản:**
+
 ```c
 float diem = 9.5;
 printf("%f", diem);    // In ra: 9.500000
 ```
+
 - `%f` dùng để in số thập phân
 - Mặc định sẽ hiện 6 số sau dấu phẩy
 
 **2. Cách giới hạn số sau dấu phẩy:**
+
 ```c
 float diem = 9.5;
 printf("%.1f", diem);  // In ra: 9.5
@@ -357,34 +399,38 @@ printf("%.3f", diem);  // In ra: 9.500
 ```
 
 **Giải thích đơn giản:**
+
 - `.1` nghĩa là "lấy 1 số sau dấu phẩy"
 - `.2` nghĩa là "lấy 2 số sau dấu phẩy"
 - `.3` nghĩa là "lấy 3 số sau dấu phẩy"
 
 **Ví dụ thực tế về điểm số (Trường FBT này GPA 8.996 mới cho làm tròn :>):**
+
 ```c
 #include <stdio.h>
 
 int main() {
     float diemToan = 8.75;
-    
+
     // In điểm không làm tròn (6 số sau dấu phẩy)
     printf("Diem day du: %f\n", diemToan);     // 8.750000
-    
+
     // In điểm làm tròn 1 số sau dấu phẩy
     printf("Diem lam tron: %.1f\n", diemToan); // 8.8
-    
+
     return 0;
 }
 ```
 
-
 #### 3.2.3. Kiểu Ký Tự (Char)
+
 Dùng để lưu 1 ký tự như chữ cái ('A', 'B'), số ('1', '2') hoặc ký tự đặc biệt ('@', '#')
+
 - Luôn đặt ký tự trong dấu nháy đơn ' '
 - Ví dụ: `char xepLoai = 'A';`
 
 **Ví dụ đơn giản:**
+
 ```c
 #include <stdio.h>
 
@@ -402,6 +448,7 @@ int main() {
 Có 2 cách tạo biến:
 
 1. **Tạo biến không có giá trị ban đầu:**
+
 ```c
 int tuoi;
 float diem;
@@ -409,44 +456,48 @@ char loai;
 ```
 
 2. **Tạo biến có giá trị ban đầu:**
+
 ```c
 int tuoi = 18;
 float diem = 9.5;
 char loai = 'A';
 ```
 
- 💡 **Lưu ý quan trọng:**
- - Tên biến không được bắt đầu bằng số
+💡 **Lưu ý quan trọng:**
 
-   ❌ `1soNguyen`, `2tuoi`
+- Tên biến không được bắt đầu bằng số
 
-   ✅ `soNguyen`, `tuoi`
+  ❌ `1soNguyen`, `2tuoi`
 
- - Tên biến không được chứa dấu cách
+  ✅ `soNguyen`, `tuoi`
 
-   ❌ `diem toan`, `ho ten`
+- Tên biến không được chứa dấu cách
 
-   ✅ `diemToan`, `hoTen`
+  ❌ `diem toan`, `ho ten`
 
- - Nên đặt tên biến có ý nghĩa
+  ✅ `diemToan`, `hoTen`
 
-   ❌ `x`, `abc`, `temp`
+- Nên đặt tên biến có ý nghĩa
 
-   ✅ `diemToan`, `hoTen`, `tuoi`
+  ❌ `x`, `abc`, `temp`
 
- - Tên biến không được trùng với từ khóa của C
+  ✅ `diemToan`, `hoTen`, `tuoi`
 
-   ❌ `int`, `float`, `return`
+- Tên biến không được trùng với từ khóa của C
 
-   ✅ `soNguyen`, `diemSo`, `giaTriTra`
+  ❌ `int`, `float`, `return`
 
- - Tên biến nên được lưu ở dạng camelCase hoặc snake_case
+  ✅ `soNguyen`, `diemSo`, `giaTriTra`
 
-   ❌ `diem-toan`, `DIEM_TOAN`
+- Tên biến nên được lưu ở dạng camelCase hoặc snake_case
 
-   ✅ `diemToan`, `diem_toan` (khuyến khích xài camelCase)
+  ❌ `diem-toan`, `DIEM_TOAN`
+
+  ✅ `diemToan`, `diem_toan` (khuyến khích xài camelCase)
+  CamelCase là một cách đặt tên biến, hàm, hoặc phương thức trong lập trình, trong đó các từ được nối liền nhau mà không có khoảng trắng, và chữ cái đầu của từ thứ hai trở đi được viết hoa để dễ đọc hơn.
 
 **Ví dụ thực tế:**
+
 ```c
 #include <stdio.h>
 
@@ -455,12 +506,12 @@ int main() {
     int tuoi = 18;
     float diemToan = 9.5;
     char xepLoai = 'A';
-    
+
     // In thông tin ra màn hình
     printf("Tuoi: %d\n", tuoi);
     printf("Diem toan: %.1f\n", diemToan);
     printf("Xep loai: %c\n", xepLoai);
-    
+
     return 0;
 }
 ```
@@ -468,26 +519,29 @@ int main() {
 ### 3.4. Toán Tử Gán (Dấu =)
 
 **Dấu = dùng để gì?**
+
 - Dùng để gán giá trị vào biến. (Xem ở dưới nhé)
 - Hiểu vui vẻ hơn thì bạn khai báo con mèo nhà bạn, bạn gán cái tên vào cho nó và tất nhiên bạn cũng có thể đổi tên nó.
 
 **Ví dụ 1: Gán giá trị khi tạo biến**
+
 ```c
 int tuoi = 18;        // Đặt số 18 vào biến tuoi
 float diem = 9.5;     // Đặt số 9.5 vào biến diem
 ```
 
 **Ví dụ 2: Thay đổi giá trị của biến**
+
 ```c
 #include <stdio.h>
 
 int main() {
     int tuoi = 18;            // Ban đầu tuổi là 18
     printf("Tuoi cu: %d\n", tuoi);
-    
+
     tuoi = 19;               // Đổi tuổi thành 19 (không cần gọi lại int nữa vì mình đã khai báo thằng tuoi là int rồi)
     printf("Tuoi moi: %d\n", tuoi);
-    
+
     return 0;
 }
 
@@ -497,29 +551,18 @@ int main() {
 ```
 
 > 💡 **Lưu ý quan trọng:**
+>
 > - Dấu = trong lập trình KHÔNG giống dấu = trong toán học
 > - Trong lập trình: a = 5 nghĩa là "đặt số 5 vào biến a"
 > - Có thể thay đổi giá trị của biến nhiều lần
 > - Chỉ những biến const (hằng số) là không thể thay đổi
 
-### 3.5. Literals và Constants (Biết thêm để hiểu hơn)
-
-#### 3.5.1. Literals
-
-Literals là các giá trị cố định được sử dụng trực tiếp trong mã nguồn.
-
-**Ví Dụ:**
-```c
-int a = 10;        // Integer literal
-float b = 3.14f;   // Float literal
-char c = 'A';      // Character literal
-```
-
-#### 3.5.2. Constants
+### 3.5. Constants (Biết thêm để hiểu hơn)
 
 Constants là những giá trị không thay đổi trong quá trình chạy của chương trình. Trong C, bạn có thể sử dụng từ khóa `const` để khai báo hằng số.
 
 **Ví Dụ:**
+
 ```c
 #include <stdio.h>
 
@@ -530,8 +573,6 @@ int main() {
     return 0;
 }
 ```
-
-
 
 ## Chương 4: Đầu Vào và Đầu Ra
 
@@ -546,11 +587,13 @@ Dễ hiểu hơn, bạn xài printf thì máy tính hiển thị là Output - t�
 Hàm `printf` được sử dụng để hiển thị thông tin lên màn hình.
 
 **Cú Pháp:**
+
 ```c
 printf("chuỗi định dạng", các biến);
 ```
 
 **Ví Dụ:**
+
 ```c
 #include <stdio.h>
 
@@ -568,37 +611,44 @@ int main() {
 ```
 
 **Giải Thích:**
+
 - `%d`: Định dạng cho số nguyên.
 - `%.2f`: Định dạng cho số thực với 2 chữ số thập phân.
 - `%c`: Định dạng cho ký tự.
+
 ### 4.3 Hàm scanf - Cách nhập dữ liệu từ bàn phím
 
 #### 1. scanf là gì?
+
 - Là cách để chương trình nhận thông tin từ người dùng nhập vào
 - Giống như khi bạn điền thông tin vào form
 
 #### 2. Cách dùng scanf cơ bản:
+
 ```c
 #include <stdio.h>
 
 int main() {
     int tuoi;
-    
+
     printf("Ban bao nhieu tuoi? ");
     scanf("%d", &tuoi); // Gõ 18 vào bàn phím
-    
+
     printf("Tuoi cua ban la: %d\n", tuoi); // In ra màn hình: Tuoi cua ban la: 18
     return 0;
 }
 ```
 
 #### 3. Tại sao phải có dấu & trong scanf?
+
 Hãy tưởng tượng:
+
 1. Biến là một cái hộp đựng đồ
 2. Địa chỉ là địa chỉ nhà của cái hộp đó
 3. Dấu & nghĩa là "địa chỉ của"
 
 **Ví dụ thực tế:**
+
 - Khi bạn đặt hàng online:
   - Shipper cần địa chỉ nhà bạn để giao hàng
   - Tương tự, scanf cần địa chỉ của biến để lưu giá trị (Đặc tính của ngôn ngữ C)
@@ -608,34 +658,35 @@ int tuoi;          // Tạo cái hộp tên là tuoi
 scanf("%d", &tuoi) // & nghĩa là "gửi đến địa chỉ của hộp tuoi"
 ```
 
-
 #### 4. Ví dụ với nhiều kiểu dữ liệu:
+
 ```c
 #include <stdio.h>
 
 int main() {
     int tuoi;
     float diem;
-    
+
     // Nhập tuổi
     printf("Nhap tuoi: ");
     scanf("%d", &tuoi);
-    
+
     // Nhập điểm
     printf("Nhap diem: ");
     scanf("%f", &diem);
-    
+
     // In kết quả
     printf("Tuoi: %d\n", tuoi);
     printf("Diem: %.1f\n", diem);
-    
+
     return 0;
 }
 ```
 
 > 💡 **Lưu ý quan trọng:**
+>
 > - LUÔN PHẢI có dấu & trước tên biến trong scanf
-> - Dùng đúng ký hiệu: 
+> - Dùng đúng ký hiệu:
 >   - %d cho số nguyên
 >   - %f cho số thập phân
 >   - %c cho ký tự
@@ -644,8 +695,9 @@ int main() {
 ### 4.4. Bài Tập Thực Hành
 
 1. **Tính Tổng Hai Số Được Nhập Từ Bàn Phím:**
-   
+
    **Giải Pháp:**
+
    ```c
    #include <stdio.h>
 
@@ -662,8 +714,9 @@ int main() {
    ```
 
 2. **Tính Diện Tích Hình Chữ Nhật Khi Biết Chiều Dài và Chiều Rộng Nhập Từ Người Dùng:**
-   
+
    **Giải Pháp:**
+
    ```c
    #include <stdio.h>
 
@@ -686,6 +739,7 @@ int main() {
 ### 5.1. Phép Tính Cơ Bản
 
 #### 1. Các Dấu Toán Học:
+
 ```c
 + : cộng
 - : trừ
@@ -695,24 +749,25 @@ int main() {
 ```
 
 **Ví dụ thực tế:**
+
 ```c
 #include <stdio.h>
 
 int main() {
     int a = 15, b = 4;
-    
+
     // Phép cộng
     printf("%d + %d = %d\n", a, b, a + b);    // 15 + 4 = 19
-    
+
     // Phép trừ
     printf("%d - %d = %d\n", a, b, a - b);    // 15 - 4 = 11
-    
+
     // Phép nhân
     printf("%d * %d = %d\n", a, b, a * b);    // 15 * 4 = 60
-    
+
     // Phép chia
     printf("%d / %d = %d\n", a, b, a / b);    // 15 / 4 = 3
-    
+
     // Phép chia lấy dư
     printf("%d %% %d = %d\n", a, b, a % b);   // 15 % 4 = 3
     return 0;
@@ -722,6 +777,7 @@ int main() {
 ### 5.2. So Sánh Trong C
 
 #### 1. Các Dấu So Sánh:
+
 ```c
 ==  : so sánh bằng (hai dấu =) (Nếu 1 dấu = thì là toán tử gán)
 !=  : so sánh khác
@@ -732,10 +788,12 @@ int main() {
 ```
 
 > 💡 **Lưu ý quan trọng:**
+>
 > - Kết quả so sánh: 1 là đúng, 0 là sai
 > - Toán tử logic thường dùng với if/else
 
 **Ví dụ thực tế:**
+
 ```c
 int diem = 85;
 
@@ -747,6 +805,7 @@ printf("Điểm == 100: %d\n", diem == 100); // 0 (sai)
 ### 5.3. Toán Tử Logic
 
 #### 1. Ba Toán Tử Chính:
+
 ```c
 &&  : AND (cả hai điều kiện phải đúng)
 ||  : OR (một trong hai điều kiện đúng)
@@ -756,6 +815,7 @@ printf("Điểm == 100: %d\n", diem == 100); // 0 (sai)
 > Lưu ý khá là ma giáo: && Cái này nếu trường hợp 1 sai thì bỏ qua không kiểm tra trường hợp 2 (Sau này lên PRO CSD sẽ cay sml vì mất điểm FE câu này)
 
 **Ví dụ về xét điểm:**
+
 ```c
 int diem = 85;
 
@@ -778,16 +838,19 @@ if (diem != 85) {
 ### 5.4. Thứ Tự Ưu Tiên
 
 Giống như toán học:
+
 1. Trong ngoặc `()` tính trước
 2. Nhân `*`, chia `/` tính trước cộng `+`, trừ `-`
 
 **Ví dụ:**
+
 ```c
 int ket_qua1 = 5 + 3 * 2;     // = 5 + 6 = 11
 int ket_qua2 = (5 + 3) * 2;   // = 8 * 2 = 16
 ```
 
 > 💡 **Mẹo học:**
+>
 > - Nếu không chắc về thứ tự, hãy dùng dấu ngoặc `()`
 > - Kết quả so sánh: 1 là đúng, 0 là sai
 > - Toán tử logic thường dùng với if/else
@@ -795,10 +858,12 @@ int ket_qua2 = (5 + 3) * 2;   // = 8 * 2 = 16
 ### 5.5. Toán Tử Tăng/Giảm (++ và --)
 
 #### 1. Toán tử ++
+
 - Dùng để tăng giá trị lên 1 đơn vị
 - Có 2 cách dùng: đặt trước (++a) hoặc đặt sau (a++)
 
 **Ví dụ về a++:**
+
 ```c
 int a = 5;
 printf("%d\n", a++);  // In ra 5, sau đó a mới tăng lên 6
@@ -806,6 +871,7 @@ printf("%d\n", a);    // In ra 6
 ```
 
 **Ví dụ về ++a:**
+
 ```c
 int a = 5;
 printf("%d\n", ++a);  // Tăng a lên 6 trước, rồi in ra 6
@@ -813,10 +879,12 @@ printf("%d\n", a);    // In ra 6
 ```
 
 #### 2. Toán tử --
+
 - Dùng để giảm giá trị đi 1 đơn vị
 - Cũng có 2 cách: đặt trước (--a) hoặc đặt sau (a--)
 
 **Ví dụ về a--:**
+
 ```c
 int a = 5;
 printf("%d\n", a--);  // In ra 5, sau đó a mới giảm xuống 4
@@ -824,6 +892,7 @@ printf("%d\n", a);    // In ra 4
 ```
 
 **Ví dụ về --a:**
+
 ```c
 int a = 5;
 printf("%d\n", --a);  // Giảm a xuống 4 trước, rồi in ra 4
@@ -831,35 +900,39 @@ printf("%d\n", a);    // In ra 4
 ```
 
 #### 3. So sánh hai cách dùng:
+
 ```c
 #include <stdio.h>
 
 int main() {
     int a = 5;
-    
+
     // Cách 1: a++
     printf("Truoc khi a++: %d\n", a);   // 5
     printf("Trong khi a++: %d\n", a++); // 5
     printf("Sau khi a++: %d\n", a);     // 6
-    
+
     a = 5; // Đặt lại a = 5
-    
+
     // Cách 2: ++a
     printf("Truoc khi ++a: %d\n", a);   // 5
     printf("Trong khi ++a: %d\n", ++a); // 6
     printf("Sau khi ++a: %d\n", a);     // 6
-    
+
     return 0;
 }
 ```
 
 > 💡 **Quy tắc dễ nhớ:**
+>
 > - a++ : "Dùng trước, tăng sau"
 > - ++a : "Tăng trước, dùng sau"
 > - Tương tự cho a-- và --a
 
 #### 4. Lưu ý quan trọng:
+
 1. Trong biểu thức đơn giản: a++ và ++a cho kết quả giống nhau
+
 ```c
 int a = 5;
 a++;    // a = 6
@@ -867,19 +940,22 @@ a++;    // a = 6
 ```
 
 2. Trong biểu thức phức tạp: kết quả có thể khác nhau
+
 ```c
 int a = 5;
 int b = a++;  // b = 5, a = 6
 int c = ++a;  // a = 7, c = 7
 ```
-  #### 5. Các Trường Hợp Phức Tạp (Xài cho thi FE nhé)
+
+#### 5. Các Trường Hợp Phức Tạp (Xài cho thi FE nhé)
 
 **Trường hợp 1: Nhiều toán tử ++ trong cùng một printf**
+
 ```c
 int a = 5;
 printf("%d %d %d\n", a++, a++, a++);
 // Kết quả: 7 6 5 (Da Check bang DEV-C)
-// Giải thích: 
+// Giải thích:
 // 1. printf đọc từ phải sang trái
 // 2. a++ = 5, a tăng lên 6
 // 3. a++ = 6, a tă ng lên 7
@@ -887,6 +963,7 @@ printf("%d %d %d\n", a++, a++, a++);
 ```
 
 **Trường hợp 2: Kết hợp ++a và a++**
+
 ```c
 int a = 5;
 printf("%d %d %d\n", ++a, a++, ++a);
@@ -899,20 +976,23 @@ printf("%d %d %d\n", ++a, a++, ++a);
 ```
 
 **Trường hợp 3: Trong biểu thức phép tính**
+
 ```c
 int a = 5;
-int b = a++ + ++a + a++; // 5 + 7 + 7 
+int b = a++ + ++a + a++; // 5 + 7 + 7
 // KHÔNG NÊN DÙNG!
 // Kết quả: 19
 // Cách giải: đầu tiên a++ thì nó vẫn bằng 5, nhưng sau đó nó sẽ tăng ở cái thằng a tiếp theo. a tiếp theo ở đây là ++a thì ++a tăng ngay lập tức lên 6 và nó cộng thêm cái a++ cũ nữa là thành 7.
 ```
 
 > ⚠️ **CẢNH BÁO QUAN TRỌNG:**
+>
 > 1. KHÔNG dùng nhiều toán tử ++/-- trong cùng một câu lệnh
 > 2. KHÔNG dùng ++/-- nhiều lần với cùng một biến trong một printf
 > 3. Nên tách thành nhiều dòng riêng biệt để code dễ đọc và dễ bảo trì
 
 **Cách viết an toàn:**
+
 ```c
 int a = 5;
 a++;            // Tăng a
@@ -921,16 +1001,17 @@ a++;            // Tăng a tiếp
 printf("%d\n", a);  // In a
 ```
 
-
 ## Chương 6: Câu Điều Kiện (If-Else)
 
 ### 6.1. If-Else Là Gì?
+
 - Giống như khi ta ra quyết định trong cuộc sống (Chọn tiền hay sự nghiệp? if chọn tiền, else chọn sự nghiệp)
 - Ví dụ: NẾU trời mưa THÌ mang ô, KHÔNG THÌ không mang ô
 
 ### 6.2. Cách Viết If-Else Cơ Bản
 
 **Cấu trúc đơn giản:**
+
 ```c
 if (điều kiện) {
     // Làm gì đó nếu điều kiện ĐÚNG
@@ -938,9 +1019,11 @@ if (điều kiện) {
     // Làm gì đó nếu điều kiện SAI
 }
 ```
+
 > Có thể bạn không biết: Bạn có thể ghi mỗi if(điều kiện){} mà không cần điều kiện else (NẾU trời mưa THÌ mang ô vẫn có nghĩa).
 
 **Ví dụ thực tế - Kiểm tra điểm:**
+
 ```c
 #include <stdio.h>
 
@@ -948,13 +1031,13 @@ int main() {
     float diem;
     printf("Nhap diem cua ban: ");
     scanf("%f", &diem);
-    
+
     if (diem >= 5.0) {
         printf("Ban da dau!\n");
     } else {
         printf("Ban chua dau, nap vao tu ban FBT 2 trieu 6 nhe!\n");
     }
-    
+
     return 0;
 }
 ```
@@ -967,8 +1050,9 @@ int main() {
   - Nếu điều kiện 1 sai thì chạy khối lệnh 2
   - Nếu điều kiện 2 sai thì chạy khối lệnh 3
   - Nếu điều kiện 3 sai thì chạy khối lệnh 4
- - Nếu không có điều kiện nào đúng thì chạy khối lệnh else
-**Ví dụ về xếp loại điểm:**
+- Nếu không có điều kiện nào đúng thì chạy khối lệnh else
+  **Ví dụ về xếp loại điểm:**
+
 ```c
 #include <stdio.h>
 
@@ -976,7 +1060,7 @@ int main() {
     float diem;
     printf("Nhap diem cua ban: ");
     scanf("%f", &diem);
-    
+
     if (diem >= 8.0) {
         printf("Gioi!\n");
     } else if (diem >= 6.5) {
@@ -986,24 +1070,28 @@ int main() {
     } else {
         printf("Can co gang them!\n");
     }
-    
+
     return 0;
 }
 ```
 
 > 💡 **Mẹo nhớ cú pháp:**
+>
 > - Luôn có dấu ngoặc tròn () sau if
 > - Luôn có dấu ngoặc nhọn {} cho khối lệnh
 > - else if dùng khi có nhiều trường hợp
 > - else là trường hợp còn lại
+
 ### 6.4. Switch-Case
 
 #### 1. Switch-Case là gì?
+
 - Là cách viết gọn hơn của nhiều if-else
 - Thường dùng khi cần so sánh một biến với nhiều giá trị khác nhau
 - Giống như "menu" trong nhà hàng
 
 #### 2. Cấu trúc cơ bản:
+
 ```c
 switch (biến_cần_kiểm_tra) {
     case giá_trị_1:
@@ -1018,19 +1106,20 @@ switch (biến_cần_kiểm_tra) {
 ```
 
 #### 3. Ví dụ thực tế - Menu đồ uống:
+
 ```c
 #include <stdio.h>
 
 int main() {
     int luaChon;
-    
+
     printf("=== MENU DO UONG ===\n");
     printf("1. Cafe\n");
     printf("2. Tra dao\n");
     printf("3. Nuoc cam\n");
     printf("Moi chon (1-3): ");
     scanf("%d", &luaChon);
-    
+
     switch (luaChon) {
         case 1:
             printf("Ban da chon Cafe\n");
@@ -1044,12 +1133,13 @@ int main() {
         default:
             printf("Khong co lua chon nay!\n");
     }
-    
+
     return 0;
 }
 ```
 
 #### 4. So sánh với if-else:
+
 ```c
 // Cách viết với if-else (dài dòng)
 if (luaChon == 1) {
@@ -1072,12 +1162,14 @@ switch (luaChon) {
 ```
 
 > 💡 **Lưu ý quan trọng:**
+>
 > 1. PHẢI có `break` sau mỗi case (nếu không muốn "rơi" xuống case tiếp theo)
 > 2. `default` giống như `else` - xử lý trường hợp còn lại
 > 3. Switch-case chỉ làm việc với số nguyên và ký tự
 > 4. KHÔNG dùng được với so sánh >, <, >=, <=
 
 #### 5. Ví dụ về "rơi xuống" khi quên break:
+
 ```c
 int n = 1;
 switch (n) {
@@ -1093,12 +1185,15 @@ switch (n) {
 }
 // Kết quả: In ra cả "Mot" và "Hai"
 ```
+
 ### 6.5. Một Số Lưu Ý Quan Trọng
+
 1. Dấu so sánh bằng là `==` (hai dấu =)
 2. Dấu khác là `!=`
 3. Có thể dùng && (VÀ) hoặc || (HOẶC) để kết hợp điều kiện
 
 **Ví dụ về điểm thi:**
+
 ```c
 if (diem >= 0 && diem <= 10) {
     printf("Diem hop le!\n");
@@ -1106,16 +1201,20 @@ if (diem >= 0 && diem <= 10) {
     printf("Diem khong hop le!\n");
 }
 ```
+
 ## Chương 7: Vòng Lặp
 
 ### 7.1. Vòng Lặp Là Gì?
+
 - Là cách để làm một việc lặp đi lặp lại nhiều lần
 - Ví dụ: In "Hello" 5 lần, tính tổng từ 1 đến 10
 
 ### 7.2. Vòng Lặp For
+
 Dùng khi biết trước số lần cần lặp
 
 **Cấu trúc cơ bản:**
+
 ```c
 for (giá_trị_đầu; điều_kiện; tăng/giảm) {
     // Công việc cần lặp lại
@@ -1123,6 +1222,7 @@ for (giá_trị_đầu; điều_kiện; tăng/giảm) {
 ```
 
 **Ví dụ 1: In số từ 1 đến 5**
+
 ```c
 #include <stdio.h>
 
@@ -1135,7 +1235,9 @@ int main() {
 }
 // Kết quả: 1 2 3 4 5
 ```
+
 > Note Cực Kỳ Quan trọng:
+>
 > - Ở đây bạn phải hiểu rằng: i = 1; i <= 5; i++ là cách viết của vòng lặp for
 > - i = 1: là giá trị đầu
 > - i <= 5: là điều kiện
@@ -1143,69 +1245,75 @@ int main() {
 > - Bạn cũng có thể thấy đâu đó có vài ngôn ngữ (Điển hình nhất là C++) có thể không khai báo biến ở ngoài mà khai báo trực tiếp trong vòng lặp for. for(i = 0; i < 10; i++) {}. Nhưng C thì không được vậy nhé :> hãy cẩn thận, nếu bạn xài được thì hãy coi đuôi file bạn còn lại .c không nhé :)
 > - Mình phải khai báo biến i trước khi sử dụng nó trong vòng lặp for, và tại sao cách người học lập trình lại xài biến i? Cơ bản nó là quy chuẩn của người học lập trình thoai, xài i là để đại diện cho biến đếm chứ bạn có thể đổi thành a, b, c, helloWorld,... đều được hết.
 
-
 **Ví dụ 2: Tính tổng từ 1 đến 5**
+
 ```c
 #include <stdio.h>
 
 int main() {
     int i;
     int tong = 0;
-    
+
     for (i = 1; i <= 5; i++) {
         tong = tong + i;
     }
-    
+
     printf("Tong = %d\n", tong);
     return 0;
 }
 // Kết quả: Tong = 15 (1+2+3+4+5)
 ```
+
 > Lưu ý:
-> - Có thể bạn không biết thì i thường sẽ gán giá trị 0 trước thay vì giá trị là 1 khi mà duyệt chuỗi vì ở ngôn ngữ lập trình bắt đầu bằng 0, ví dụ như phần tử đầu tiên của mảng là a[0]... 
+>
+> - Có thể bạn không biết thì i thường sẽ gán giá trị 0 trước thay vì giá trị là 1 khi mà duyệt chuỗi vì ở ngôn ngữ lập trình bắt đầu bằng 0, ví dụ như phần tử đầu tiên của mảng là a[0]...
 > - for(i = 0; i < 5; i++) {} (0,1,2,3,4) vẫn là 5 lần lặp. Ở ví dụ trên yêu cầu tính từ 1 đến 5 nên mình để i = 1 thoai nhé.
 
 ### 7.3. Vòng Lặp While
+
 Dùng khi KHÔNG biết trước số lần cần lặp. Tức là chơi tới bến tới khi mệt thì dừng, vậy điều kiện dừng cuộc chơi là mệt.
 
 Cũng giống như ví dụ trên thì ví dụ dưới, nếu người dùng nhập điểm dưới 0 hoặc nhập điểm trên 10 thì dừng cuộc chơi lại (ngưng vòng lặp).
 
 **Ví dụ: Nhập điểm cho đến khi hợp lệ**
+
 ```c
 #include <stdio.h>
 
 int main() {
     float diem;
-    
+
     printf("Nhap diem (0-10): ");
     scanf("%f", &diem);
-    
+
     while (diem < 0 || diem > 10) {
         printf("Diem khong hop le!\n");
         printf("Nhap lai diem (0-10): ");
         scanf("%f", &diem);
     }
-    
+
     printf("Diem hop le: %.1f\n", diem);
     return 0;
 }
 ```
 
 > 💡 **Mẹo nhớ:**
+>
 > - For: Dùng khi biết số lần lặp
 > - While: Dùng khi chưa biết số lần lặp
 > - Đừng quên tăng/giảm biến đếm trong vòng lặp
 > - Cẩn thận với vòng lặp vô tận!
 
 ### 7.4. Vòng Lặp Do-While
-Đặc điểm: Thực hiện công việc ít nhất 1 lần, sau đó mới kiểm tra điều kiện. 
+
+Đặc điểm: Thực hiện công việc ít nhất 1 lần, sau đó mới kiểm tra điều kiện.
 
 Dễ hiểu hơn thì, bạn muốn nếm mùi chia tay là gì, thì bạn phải thử yêu ít nhất 1 lần xong mới biết được đúng không ?
 
 Yêu thử 1 lần sau đó check lại điều kiện "nên yêu tiếp không?", nếu có (tức là while là true) thì tiếp tục yêu, nếu không (tức là while là false) thì dừng cuộc chơi.
 
-
 **Cấu trúc:**
+
 ```c
 do {
     // Công việc cần lặp lại
@@ -1213,6 +1321,7 @@ do {
 ```
 
 **So sánh While và Do-While:**
+
 ```c
 // While: Kiểm tra điều kiện trước, làm việc sau
 while (điều_kiện) {
@@ -1226,12 +1335,13 @@ do {
 ```
 
 **Ví dụ thực tế - Menu game (Cái này lên LAB211 ngỏm nhiều lắm ):**
+
 ```c
 #include <stdio.h>
 
 int main() {
     int luaChon;
-    
+
     do {
         printf("\n=== MENU GAME ===\n");
         printf("1. Choi game\n");
@@ -1239,7 +1349,7 @@ int main() {
         printf("3. Thoat\n");
         printf("Chon (1-3): ");
         scanf("%d", &luaChon);
-        
+
         switch(luaChon) {
             case 1:
                 printf("Ban da chon choi game!\n");
@@ -1254,28 +1364,35 @@ int main() {
                 printf("Lua chon khong hop le!\n");
         }
     } while (luaChon != 3);
-    
+
     return 0;
 }
 ```
 
 > 💡 **Khi nào dùng Do-While?**
+>
 > - Menu lặp lại: Hiển thị menu ít nhất 1 lần
 > - Nhập liệu: Bắt người dùng nhập đến khi hợp lệ
 > - Trò chơi: Chơi ít nhất 1 lần rồi hỏi có muốn chơi tiếp không
+
 ## Chương 8: Mảng
- (Array)
+
+(Array)
+
 ### 8.1. Mảng Là Gì?
+
 - Là tập hợp các phần tử cùng kiểu dữ liệu
 - Giống như một dãy túi tiền được đánh số từ 0
 - Mỗi túi chứa một giá trị (Ví dụ túi 0 chứa 100 đô,..)
 
 Tại sao lại có mảng?
+
 - Nếu bạn muốn lưu trữ nhiều giá trị cùng kiểu dữ liệu, thay vì khai báo nhiều biến riêng lẻ, bạn có thể sử dụng mảng để lưu trữ chúng.
 
 - Thử xem ví dụ nhé:
 
 Code nếu không xài mảng
+
 ```c
 int number0 = 100;
 int number1 = 200;
@@ -1283,15 +1400,19 @@ int number2 = 300;
 int number3 = 400;
 int number4 = 500;
 ```
+
 Code nếu xài mảng
+
 ```c
 int numbers[5] = {100, 200, 300, 400, 500};
 ```
 
 > 💡 **Lưu ý:**
+>
 > - Mảng bắt đầu từ 0, ví dụ như mảng numbers[5] thì sẽ có 5 phần tử là numbers[0], numbers[1], numbers[2], numbers[3], numbers[4].
 
 #### Ví dụ trực quan:
+
 ```
 Mảng điểm của 5 học sinh:
 [8.5] [7.0] [9.0] [6.5] [8.0]
@@ -1301,6 +1422,7 @@ Mảng điểm của 5 học sinh:
 ### 8.2. Cách Khai Báo và Khởi Tạo Mảng
 
 #### 1. Khai báo mảng:
+
 ```c
 // Cách 1: Khai báo mảng có kích thước cố định
 int diem[5];           // Mảng số nguyên 5 phần tử
@@ -1310,11 +1432,14 @@ float diemThi[10];     // Mảng số thực 10 phần tử
 int diem[5] = {8, 7, 9, 6, 8};
 int diem[] = {8, 7, 9, 6, 8};  // Tự động xác định kích thước
 ```
+
 > Cảnh báo:
->  Mảng trong C có kích thước cố định, không tự động tăng lên. Bạn cần tạo một mảng mới có kích thước lớn hơn và sao chép các giá trị từ mảng cũ sang mảng mới nếu muốn thêm phần tử vào mảng.
+> Mảng trong C có kích thước cố định, không tự động tăng lên. Bạn cần tạo một mảng mới có kích thước lớn hơn và sao chép các giá trị từ mảng cũ sang mảng mới nếu muốn thêm phần tử vào mảng.
+
 ### 8.3. Cách Truy Cập Phần Tử Mảng
 
 #### 1. Đọc/ghi một phần tử:
+
 ```c
 int diem[5];
 
@@ -1327,6 +1452,7 @@ printf("%d", diem[0]);  // In phần tử đầu tiên
 ```
 
 #### 2. Duyệt mảng:
+
 ```c
 #include <stdio.h>
 
@@ -1337,12 +1463,12 @@ int main() {
     for( i = 0; i < 5; i++) {
         printf("%d ", diem[i]);
     }
-    
+
     // Cách 2: Duyệt từ cuối về đầu
     for(i = 4; i >= 0; i--) {
         printf("%d ", diem[i]);
     }
-    
+
     return 0;
 }
 ```
@@ -1350,6 +1476,7 @@ int main() {
 ### 8.4. Nhập/Xuất Mảng
 
 #### 1. Nhập mảng từ bàn phím (Cái này dùng rất nhiều khi học):
+
 ```c
 #include <stdio.h>
 
@@ -1357,7 +1484,7 @@ int main() {
     int n;  // số phần tử
     printf("Nhap so phan tu: ");
     scanf("%d", &n);
-    
+
     int arr[n];
     int i;
     // Nhập từng phần tử
@@ -1365,12 +1492,13 @@ int main() {
         printf("Nhap phan tu thu %d: ", i);
         scanf("%d", &arr[i]);
     }
-    
+
     return 0;
 }
 ```
 
 #### 2. Xuất mảng:
+
 ```c
 // In mảng
 int i;
@@ -1382,6 +1510,7 @@ for( i = 0; i < n; i++) {  // Đấy cũng là lí do mà chuỗi này bắt đ�
 ### 8.5. Các Thao Tác Cơ Bản Với Mảng
 
 #### 1. Tính tổng mảng:
+
 ```c
 int tong = 0;
 int i;
@@ -1391,6 +1520,7 @@ for(i = 0; i < n; i++) {
 ```
 
 #### 2. Tìm giá trị lớn nhất:
+
 ```c
 // Cách logic, bây giờ bạn có 1 cái dãy
 // Bạn không biết giá trị lớn nhất là bao nhiêu, nhưng bạn biết rằng giá trị lớn nhất sẽ nằm ở đâu đó trong dãy
@@ -1407,6 +1537,7 @@ for( i = 1; i < n; i++) {
 ```
 
 #### 3. Tìm kiếm phần tử:
+
 ```c
 // Cái này là function (học ở chương 12 nhé)
 int timKiem(int arr[], int n, int x) {
@@ -1430,12 +1561,14 @@ int main() {
     return 0;
 }
 ```
+
 BONUS:
 Nếu như bạn không hiểu -1 có nghĩa là sao thì đơn giản cái index của mảng từ 0 tới vô cùng nên -1 là điều không thể. Mình làm vậy để mình gắn vào điều kiện để hiện thông báo lỗi, thay thế hàm main trên bằng hàm main này:
+
 ```c
 int main(){
     int arr[] = {1, 2, 3, 4, 5};
-    int x = 20; // Gia su khong tim thay 
+    int x = 20; // Gia su khong tim thay
     int index = timKiem(arr, 5, x);
     if(index == -1){ // index se ra -1 nen cai if nay se TRUE
         printf("Phan tu %d khong duoc tim thay trong mang\n", x);
@@ -1445,7 +1578,9 @@ int main(){
     return 0;
 }
 ```
+
 > 💡 **Lưu ý quan trọng:**
+>
 > 1. Chỉ số mảng bắt đầu từ 0
 > 2. Không thể gán trực tiếp mảng này cho mảng khác
 > 3. Cẩn thận với việc truy cập ngoài mảng
@@ -1469,6 +1604,7 @@ Full Code:
 Nếu bạn thử code thì vẫn chạy ra số 10 (undefined behavior) - Đây là trường hợp may mắn, nếu bạn làm việc với rất nhiều số thì nó sẽ bị lỗi và coi như bạn sẽ mất ăn mất ngủ mất tiền mất sự nghiệp.
 
 Trình biên dịch không luôn phát hiện lỗi này, vì C không kiểm tra giới hạn mảng tại thời gian chạy. Điều này có thể:
+
 - Viết đè dữ liệu ở vùng nhớ ngoài mảng (buffer overflow).
 - Gây ra các lỗi khó phát hiện hoặc chương trình bị treo.
 
@@ -1489,8 +1625,9 @@ int main() {
 
 Chuỗi là một tập hợp các ký tự được lưu trữ liên tiếp trong bộ nhớ. Trong C, chuỗi được biểu diễn bằng mảng ký tự kết thúc bằng ký tự null `\0`.
 
- %s là format specifier cho chuỗi trong printf.
- Ví dụ:
+%s là format specifier cho chuỗi trong printf.
+Ví dụ:
+
 ```c
 printf("Chuỗi: %s\n", str);
 ```
@@ -1501,26 +1638,32 @@ printf("Chuỗi: %s\n", str);
 - **C-String:** Chuỗi ký tự trong C, kết thúc bằng ký tự null `\0`.
 
 **Ví Dụ:**
+
 ```c
 char str1[] = "";       // Null-String
 char str2[] = "Hello";  // C-String
 ```
 
 ### 9.3. Khai Báo và Khởi Tạo Chuỗi
-NOTE: 
+
+NOTE:
+
 - Mảng là một khái niệm chung, được sử dụng để lưu trữ các phần tử có cùng kiểu dữ liệu.
 - Chuỗi là một trường hợp đặc biệt của mảng ký tự trong C, với ký tự '\0' để xác định điểm kết thúc.
 
 **Khai Báo Chuỗi:**
+
 ```c
 char str[50];
 ```
 
 **Khởi Tạo Chuỗi:**
+
 ```c
 char str1[] = "Hello, World!";
 char str2[20] = "C Programming";
 ```
+
 Có thể bạn không ngờ tới:
 
 Một mảng ký tự chỉ được xem là chuỗi nếu có ký tự '\0' ở cuối. Nếu không có '\0', chương trình sẽ không thể xác định được điểm kết thúc của chuỗi, dẫn đến hành vi không xác định.
@@ -1534,11 +1677,13 @@ int main() {
     return 0;
 }
 ```
+
 ### 9.4. Lưu Trữ Dữ Liệu Trong Chuỗi
 
 Chuỗi được lưu trữ dưới dạng một mảng các ký tự, kết thúc bằng ký tự null `\0`.
 
 **Ví Dụ:**
+
 ```c
 #include <stdio.h>
 
@@ -1554,16 +1699,19 @@ int main() {
 ### 9.5. Sử Dụng Hàm `printf` và `scanf` với Chuỗi
 
 **Xuất Chuỗi:**
+
 ```c
 printf("Chuỗi: %s\n", str);
 ```
 
 **Nhập Chuỗi:**
+
 ```c
 scanf("%s", str); // Chỉ nhập được đến dấu cách đầu tiên (coi ở dưới)
 ```
 
 FULLCODE:
+
 ```c
 #include <stdio.h>
 
@@ -1580,11 +1728,12 @@ int main() {
 // Chuoi ban vua nhap la: hello
 ```
 
-Nếu bạn muốn lấy hết hello worlddd thì bạn cần dùng `fgets` thay vì `scanf`.  
+Nếu bạn muốn lấy hết hello worlddd thì bạn cần dùng `fgets` thay vì `scanf`.
 
 **ĐẶC BIỆT LƯU Ý**: `fgets` lưu cả ký tự xuống dòng ('\n') vào mảng nếu bạn nhấn Enter. Bạn có thể loại bỏ nó bằng cách xử lý chuỗi sau khi nhập.
 
 FULLCODE:
+
 ```c
 #include <stdio.h>
 
@@ -1603,13 +1752,14 @@ int main() {
 
 **Thông tin bạn nên biết:**
 
-
 **Cú pháp của fgets:**
+
 ```c
 fgets(str, sizeof(str), stdin);
 ```
 
 **Ý nghĩa:**
+
 - Đọc tối đa n-1 ký tự vào chuỗi str, nơi n là kích thước của mảng str. Ký tự cuối cùng sẽ là '\0' (kết thúc chuỗi).
 - Nếu gặp ký tự xuống dòng (\n) trước khi đạt đến giới hạn, fgets sẽ lưu nó trong chuỗi.
 - Cần chỉ định số lượng ký tự tối đa để đọc.
@@ -1620,7 +1770,7 @@ fgets(str, sizeof(str), stdin);
 
 ### 9.6. Các Toán Tử Áp Dụng Cho Chuỗi
 
-Trong C, các toán tử không thể trực tiếp áp dụng lên chuỗi như cộng hoặc so sánh. Thay vào đó, chúng ta sử dụng các hàm trong thư viện `<string.h>`. 
+Trong C, các toán tử không thể trực tiếp áp dụng lên chuỗi như cộng hoặc so sánh. Thay vào đó, chúng ta sử dụng các hàm trong thư viện `<string.h>`.
 
 Giống như stdio.h thì string.h cũng là một thư viện chuẩn của C. Và nó là một thư viện sử dụng cho việc xử lý chuỗi.
 
@@ -1629,12 +1779,14 @@ Giống như stdio.h thì string.h cũng là một thư viện chuẩn của C. 
 > ⚠️ **Quan trọng:** Phải thêm `#include <string.h>` khi dùng các hàm này
 
 #### 1. strlen() - Đếm độ dài chuỗi
+
 ```c
 char ten[] = "Nguyen Van A";
 int dodai = strlen(ten);    // dodai = 11
 ```
 
 #### 2. strcpy() - Sao chép chuỗi
+
 ```c
 char ten1[] = "Nguyen Van A";
 char ten2[50];
@@ -1642,6 +1794,7 @@ strcpy(ten2, ten1);    // ten2 bây giờ là "Nguyen Van A"
 ```
 
 #### 3. strcat() - Nối chuỗi
+
 ```c
 char ho[] = "Nguyen ";
 char ten[] = "Van A";
@@ -1649,6 +1802,7 @@ strcat(ho, ten);    // ho bây giờ là "Nguyen Van A"
 ```
 
 #### 4. strcmp() - So sánh chuỗi
+
 ```c
 char pass1[] = "123456";
 char pass2[] = "123456";
@@ -1661,6 +1815,7 @@ if (strcmp(pass1, pass2) == 0) {
 ```
 
 **Ví dụ tổng hợp:**
+
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -1668,23 +1823,23 @@ if (strcmp(pass1, pass2) == 0) {
 int main() {
     // 1. Khai báo chuỗi
     char ten[50];
-    
+
     // 2. Nhập tên
     printf("Nhap ten: ");
     gets(ten);  // hoặc fgets(ten, 50, stdin);
-    
+
     // 3. Đếm độ dài
     printf("Do dai ten: %d\n", strlen(ten));
-    
+
     // 4. Sao chép sang chuỗi khác
     char ten_copy[50];
     strcpy(ten_copy, ten);
-    
+
     // 5. So sánh với chuỗi gốc
     if (strcmp(ten, ten_copy) == 0) {
         printf("Sao chep thanh cong!\n");
     }
-    
+
     return 0;
 }
 ```
@@ -1692,6 +1847,7 @@ int main() {
 ### 9.8. Mảng Chuỗi (Nhiều Chuỗi)
 
 #### 1. Cách khai báo:
+
 ```c
 // Cách 1: Khai báo trực tiếp
 char dsTen[3][50] = {
@@ -1705,46 +1861,53 @@ char dsTen[3][50];  // 3 người, mỗi tên tối đa 49 ký tự
 ```
 
 #### 2. Ví dụ về nhập/xuất danh sách tên:
+
 ```c
 #include <stdio.h>
 #include <string.h>
 
 int main() {
     char dsTen[3][50];
-    
+
     // Nhập tên
     for(int i = 0; i < 3; i++) {
         printf("Nhap ten thu %d: ", i+1);
         gets(dsTen[i]);  // hoặc fgets(dsTen[i], 50, stdin);
     }
-    
+
     // In danh sách
     printf("\nDanh sach ten:\n");
     for(int i = 0; i < 3; i++) {
         printf("%d. %s\n", i+1, dsTen[i]);
     }
-    
+
     return 0;
 }
 ```
 
 > 💡 **Mẹo nhớ:**
+>
 > - strlen(): **Str**ing **Len**gth (độ dài)
 > - strcpy(): **Str**ing **Copy** (sao chép)
 > - strcat(): **Str**ing Con**cat**enate (nối)
 > - strcmp(): **Str**ing **Comp**are (so sánh)
 > - Mảng chuỗi giống như danh sách tên trong lớp học
+
 ## Chương 10: Con Trỏ
 
 ### 10.1. Con Trỏ Là Gì?
 
 #### Hiểu đơn giản qua ví dụ thực tế:
+
 Giả sử bạn đang ở nhà và muốn tìm đồ:
+
 1. Cái áo màu đỏ (đây là **giá trị** - giống như số 10 trong biến)
 2. Tủ quần áo phòng ngủ tầng 2 (đây là **địa chỉ** - nơi cất giữ cái áo)
 
 #### Trong lập trình:
+
 1. Dấu `&` là để **lấy địa chỉ**
+
    ```c
    int so = 10;
    printf("Dia chi cua bien 'so': %p\n", &so);
@@ -1760,37 +1923,41 @@ Giả sử bạn đang ở nhà và muốn tìm đồ:
    ```
 
 #### Ví dụ cụ thể:
+
 ```c
 #include <stdio.h>
 
 int main() {
     // 1. Tạo biến bình thường
     int so = 10;
-    
+
     // 2. Tạo con trỏ và trỏ tới biến 'so'
     int *contro = &so;
-    
+
     // 3. In ra để kiểm tra
     printf("Gia tri cua 'so': %d\n", so);        // In: 10
     printf("Dia chi cua 'so': %p\n", &so);       // In: địa chỉ trong bộ nhớ
     printf("Gia tri tai dia chi: %d\n", *contro); // In: 10
-    
+
     return 0;
 }
 ```
 
 #### Giải thích đơn giản:
+
 1. `&` giống như "địa chỉ nhà": cho biết một thứ được lưu ở đâu
 2. `*` trong khai báo: nói rằng đây là con trỏ
 3. `*` khi dùng: lấy giá trị tại địa chỉ đó
 
 > 💡 **Ghi nhớ đơn giản:**
+>
 > - & : "Cho tôi biết địa chỉ"
-> - * : "Cho tôi biết giá trị tại địa chỉ này"
+> - - : "Cho tôi biết giá trị tại địa chỉ này"
 
 ### 10.2. Cách Khai Báo và Sử Dụng
 
 #### 1. Khai báo con trỏ:
+
 ```c
 int *ptr;     // Con trỏ đến số nguyên
 float *fptr;  // Con trỏ đến số thực
@@ -1798,6 +1965,7 @@ char *cptr;   // Con trỏ đến ký tự
 ```
 
 #### 2. Hai toán tử quan trọng:
+
 ```c
 int so = 10;
 int *ptr;
@@ -1807,29 +1975,30 @@ ptr = &so;    // & : Lấy địa chỉ của biến 'so'
 ```
 
 #### 3. Ví dụ chi tiết:
+
 ```c
 #include <stdio.h>
 
 int main() {
     // 1. Khai báo biến thường
     int so = 10;
-    
+
     // 2. Khai báo con trỏ
     int *ptr;
-    
+
     // 3. Cho con trỏ trỏ tới biến 'so'
     ptr = &so;
-    
+
     // 4. In ra các giá trị
     printf("Gia tri cua 'so': %d\n", so);
     printf("Dia chi cua 'so': %p\n", (void*)&so);
     printf("Gia tri cua con tro ptr: %p\n", (void*)ptr);
     printf("Gia tri ma ptr tro toi: %d\n", *ptr);
-    
+
     // 5. Thay đổi giá trị qua con trỏ
     *ptr = 20;
     printf("Gia tri moi cua 'so': %d\n", so);
-    
+
     return 0;
 }
 ```
@@ -1837,6 +2006,7 @@ int main() {
 ### 10.3. Tại Sao Cần Con Trỏ?
 
 #### 1. Thay đổi giá trị qua hàm
+
 ```c
 // KHÔNG dùng con trỏ - giá trị không thay đổi
 void tangGiaTri(int x) {
@@ -1857,6 +2027,7 @@ int main() {
 ```
 
 #### 2. Tiết kiệm bộ nhớ khi làm việc với mảng lớn
+
 ```c
 // Truyền mảng vào hàm
 void inMang(int *arr, int size) {
@@ -1870,8 +2041,9 @@ void inMang(int *arr, int size) {
 ### 10.4. Những Điều Cần Nhớ
 
 > 💡 **Quy tắc vàng:**
+>
 > 1. & : Lấy địa chỉ của biến
-> 2. * : Lấy giá trị tại địa chỉ
+> 2. - : Lấy giá trị tại địa chỉ
 > 3. Con trỏ NULL là con trỏ không trỏ vào đâu cả
 > 4. Luôn khởi tạo con trỏ trước khi sử dụng
 
@@ -1901,17 +2073,18 @@ int main() {
     // 1. Khai báo biến và con trỏ
     int a = 5;
     int *ptr = &a;
-    
+
     // 2. In giá trị ban đầu
     printf("Gia tri ban dau: %d\n", a);
-    
+
     // 3. Thay đổi giá trị qua con trỏ
     *ptr = 10;
     printf("Gia tri sau khi thay doi: %d\n", a);
-    
+
     return 0;
 }
 ```
+
 ## Chương 11: Thư Viện Chuẩn
 
 ### 11.1. Giới Thiệu về Thư Viện Chuẩn
@@ -1925,12 +2098,14 @@ Thư viện chuẩn của C cung cấp nhiều hàm và định nghĩa hữu íc
 Cung cấp các hàm quản lý bộ nhớ, chuyển đổi số, và các tiện ích khác.
 
 **Một số Hàm Thường Dùng:**
+
 - `malloc()`: Cấp phát bộ nhớ động.
 - `free()`: Giải phóng bộ nhớ đã cấp phát.
 - `atoi()`: Chuyển chuỗi thành số nguyên.
 - `exit()`: Kết thúc chương trình.
 
 **Ví Dụ:**
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -1959,16 +2134,18 @@ int main() {
 }
 ```
 
-#### 11.2.2. `<time.h>`  - Cái này thường gặp trong làm lab của prf192 chứ PE không ra
+#### 11.2.2. `<time.h>` - Cái này thường gặp trong làm lab của prf192 chứ PE không ra
 
 Cung cấp các hàm liên quan đến thời gian và ngày tháng.
 
 **Một số Hàm Thường Dùng:**
+
 - `time()`: Lấy thời gian hiện tại.
 - `difftime()`: Tính khoảng thời gian giữa hai thời điểm.
 - `clock()`: Lấy số chu kỳ CPU đã sử dụng.
 
 **Ví Dụ:**
+
 ```c
 #include <stdio.h>
 #include <time.h>
@@ -1982,11 +2159,12 @@ int main() {
 }
 ```
 
-#### 11.2.3. `<math.h>` - Cái này PE sẽ ra nhé 
+#### 11.2.3. `<math.h>` - Cái này PE sẽ ra nhé
 
 Cung cấp các hàm toán học cơ bản và nâng cao.
 
 **Một số Hàm Thường Dùng:**
+
 - `sqrt()`: Tính căn bậc hai.
 - `pow()`: Tính lũy thừa.
 - `sin()`, `cos()`, `tan()`: Hàm lượng giác. (Ít ra)
@@ -1995,6 +2173,7 @@ Cung cấp các hàm toán học cơ bản và nâng cao.
 - `round()`: Làm tròn số.
 
 **Ví Dụ:**
+
 ```c
 #include <stdio.h>
 #include <math.h>
@@ -2017,12 +2196,14 @@ int main() {
 Cung cấp các hàm kiểm tra và chuyển đổi ký tự.
 
 **Một số Hàm Thường Dùng:**
+
 - `isdigit()`: Kiểm tra ký tự có phải số không.
 - `isalpha()`: Kiểm tra ký tự có phải chữ cái không.
 - `toupper()`: Chuyển ký tự thành chữ hoa.
 - `tolower()`: Chuyển ký tự thành chữ thường.
 
 **Ví Dụ:**
+
 ```c
 #include <stdio.h>
 #include <ctype.h>
@@ -2044,10 +2225,10 @@ int main() {
 
 ### 11.3. Bài Tập Thực Hành
 
-
 1. **Sử Dụng Hàm `pow()` Trong `<math.h>` Để Tính Lũy Thừa:**
-   
+
    **Giải Pháp:**
+
    ```c
    #include <stdio.h>
    #include <math.h>
@@ -2071,11 +2252,13 @@ int main() {
 ## Chương 12: Hàm (Function)
 
 ### 12.1. Hàm Là Gì?
+
 - Giống như một công thức nấu ăn
 - Nhận nguyên liệu (tham số) → Chế biến → Cho ra món ăn (kết quả)
 - **Viết một lần, dùng nhiều lần**
 
 ### 12.2. Cấu Trúc Của Một Hàm
+
 ```c
 kiểu_trả_về tên_hàm(các_tham_số) {
     // Công việc của hàm
@@ -2083,10 +2266,11 @@ kiểu_trả_về tên_hàm(các_tham_số) {
 }
 ```
 
-NOTE: 
+NOTE:
 
 Hàm này bạn có thể tự hiểu nó là 1 cái cục (ở trong code thì sẽ có một đống cục đó kkk), và main cũng là 1 hàm, và chúng ta có thể để thứ tự ở đâu cũng được.
 Ví dụ chúng ta có thể:
+
 ```c
 int main() {
     xinChao();
@@ -2110,8 +2294,11 @@ int main() {
 ```
 
 ### 12.3. Các Loại Hàm Thường Gặp
+
 Chúng ta sẽ tới phần này, và chúng ta sẽ thấy hàm void. void là hàm không có return (tức là void tiếng việt là Vô Hiệu - không có trả về cái gì, kể cả cái nịt.
+
 #### 1. Hàm Không Có Tham Số, Không Trả Về (void)
+
 ```c
 void xinChao() {
     printf("Xin chao cac ban!\n");
@@ -2125,6 +2312,7 @@ int main() {
 ```
 
 #### 2. Hàm Có Tham Số, Không Trả Về
+
 ```c
 void tinhTong(int a, int b) {
     printf("Tong %d + %d = %d\n", a, b, a + b);
@@ -2138,6 +2326,7 @@ int main() {
 ```
 
 #### 3. Hàm Có Tham Số và Trả Về
+
 ```c
 int tinhBinhPhuong(int x) {
     return x * x;
@@ -2153,6 +2342,7 @@ int main() {
 ### 12.4. Ví Dụ Thực Tế
 
 #### 1. Tính điểm trung bình
+
 ```c
 float tinhDiemTB(float toan, float van, float anh) {
     return (toan + van + anh) / 3;
@@ -2166,6 +2356,7 @@ int main() {
 ```
 
 #### 2. Kiểm tra số chẵn lẻ
+
 ```c
 void kiemTraChanLe(int n) {
     if(n % 2 == 0) {
@@ -2185,11 +2376,13 @@ int main() {
 ### 12.5. Lưu Ý Quan Trọng
 
 > 💡 **Quy tắc đặt tên hàm:**
+>
 > - Tên có ý nghĩa: `tinhDiemTB()`, không nên `abc()`
 > - Bắt đầu bằng chữ thường
 > - Nếu nhiều từ thì viết hoa chữ đầu từ thứ 2: `tinhTong()`
 
 > ⚠️ **Những điều cần nhớ:**
+>
 > 1. Hàm phải được khai báo trước khi sử dụng
 > 2. `void`: không trả về giá trị
 > 3. `return`: kết thúc hàm và trả về giá trị
@@ -2217,19 +2410,22 @@ int main() {
     // Sử dụng hàm tính tổng
     int tong = tinhTong(5, 3);
     printf("Tong: %d\n", tong);
-    
+
     // Sử dụng hàm in dãy số
     inDaySo(5);  // In: 1 2 3 4 5
-    
+
     return 0;
 }
 ```
+
 ## Chương 13: Hàm Đệ Quy (Recursive Functions)
 
 ### 13.1. Đệ Quy Là Gì?
 
 #### Ví dụ thực tế:
+
 1. **Hiệu ứng gương đối diện:**
+
    - Bạn đứng giữa 2 gương
    - Nhìn thấy hình ảnh của mình lặp đi lặp lại
    - Mỗi lần phản chiếu = 1 lần gọi hàm
@@ -2250,10 +2446,10 @@ void demNguoc(int n) {
         printf("Xong!\n");
         return;
     }
-    
+
     // In số hiện tại
     printf("%d\n", n);
-    
+
     // Gọi lại với số nhỏ hơn
     demNguoc(n - 1);
 }
@@ -2263,7 +2459,9 @@ int main() {
     return 0;
 }
 ```
+
 **Kết quả:**
+
 ```
 5
 4
@@ -2276,6 +2474,7 @@ Xong!
 ### 13.3. Hiểu Đệ Quy Qua Ví Dụ: Tính Giai Thừa
 
 #### 1. Cách thông thường (không đệ quy):
+
 ```c
 int tinhGiaiThua(int n) {
     int ketQua = 1;
@@ -2287,17 +2486,19 @@ int tinhGiaiThua(int n) {
 ```
 
 #### 2. Cách đệ quy (tự gọi lại):
+
 ```c
 int tinhGiaiThua(int n) {
     // Điểm dừng
     if (n == 1) return 1;
-    
+
     // Tự gọi lại
     return n * tinhGiaiThua(n - 1);
 }
 ```
 
 #### Giải thích chi tiết cách hoạt động:
+
 ```
 tinhGiaiThua(4) là gì?
 → 4 × tinhGiaiThua(3)
@@ -2310,6 +2511,7 @@ tinhGiaiThua(4) là gì?
 ### 13.4. Quy Tắc Vàng Khi Viết Đệ Quy
 
 > 💡 **3 Điều Bắt Buộc:**
+>
 > 1. Phải có điểm dừng
 > 2. Phải tiến dần đến điểm dừng
 > 3. Phải đơn giản hóa bài toán sau mỗi lần gọi
@@ -2322,7 +2524,7 @@ int tinhTong(int n) {
     if (n == 1) {
         return 1;
     }
-    
+
     // 2. Tự gọi với số nhỏ hơn
     return n + tinhTong(n - 1);
 }
@@ -2337,9 +2539,11 @@ int tinhTong(int n) {
 ```
 
 > ⚠️ **Lưu ý quan trọng:**
+>
 > - Đệ quy không phải lúc nào cũng tốt hơn vòng lặp
 > - Cẩn thận với việc đệ quy quá nhiều lần (tràn bộ nhớ)
 > - Luôn đảm bảo có điểm dừng
+
 ## Chương 14: Cấu Trúc Dữ Liệu Nâng Cao (Không dạy nhưng rảnh thì đọc chứ cái này CSD đóa :)) )
 
 ### 14.1. Giới Thiệu về Cấu Trúc Dữ Liệu Nâng Cao
@@ -2351,6 +2555,7 @@ Cấu trúc dữ liệu nâng cao giúp tổ chức và quản lý dữ liệu h
 **Giới Thiệu:** Danh sách liên kết là một cấu trúc dữ liệu tuyến tính, trong đó mỗi phần tử (nút) chứa dữ liệu và một con trỏ đến phần tử tiếp theo.
 
 **Cú Pháp:**
+
 ```c
 struct Node {
     int data;
@@ -2359,6 +2564,7 @@ struct Node {
 ```
 
 **Ví Dụ: Tạo và Hiển Thị Danh Sách Liên Kết Đơn**
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -2410,6 +2616,7 @@ int main() {
 **Giới Thiệu:** Cây là một cấu trúc dữ liệu không tuyến tính, trong đó mỗi phần tử (nút) có thể có nhiều con. Một cây có một nút gốc và các nút con phân nhánh từ nút gốc.
 
 **Cú Pháp:**
+
 ```c
 struct TreeNode {
     int data;
@@ -2419,6 +2626,7 @@ struct TreeNode {
 ```
 
 **Ví Dụ: Tạo và Duyệt Cây Theo Thứ Tự Tiền Tập (Pre-order Traversal)**
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -2472,8 +2680,9 @@ int main() {
 ### 14.4. Bài Tập Thực Hành
 
 1. **Tạo Danh Sách Liên Kết Đơn và Thêm Phần Tử Vào Cuối Danh Sách:**
-   
+
    **Giải Pháp:**
+
    ```c
    #include <stdio.h>
    #include <stdlib.h>
@@ -2532,8 +2741,9 @@ int main() {
    ```
 
 2. **Tạo Cây Nhị Phân và Duyệt Cây Theo Thứ Tự Trung Tập (In-order Traversal):**
-   
+
    **Giải Pháp:**
+
    ```c
    #include <stdio.h>
    #include <stdlib.h>
@@ -2580,8 +2790,9 @@ int main() {
    ```
 
 3. **Tạo Cây Nhị Phân và Duyệt Cây Theo Thứ Tự Hậu Tập (Post-order Traversal):**
-   
+
    **Giải Pháp:**
+
    ```c
    #include <stdio.h>
    #include <stdlib.h>
