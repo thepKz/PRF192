@@ -494,6 +494,7 @@ char loai = 'A';
   ❌ `diem-toan`, `DIEM_TOAN`
 
   ✅ `diemToan`, `diem_toan` (khuyến khích xài camelCase)
+
   CamelCase là một cách đặt tên biến, hàm, hoặc phương thức trong lập trình, trong đó các từ được nối liền nhau mà không có khoảng trắng, và chữ cái đầu của từ thứ hai trở đi được viết hoa để dễ đọc hơn.
 
 **Ví dụ thực tế:**
