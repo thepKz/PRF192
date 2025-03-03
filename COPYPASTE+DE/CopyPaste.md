@@ -1,0 +1,678 @@
+Dưới đây là nội dung đã được định dạng lại để dễ đọc hơn trong file `.txt`. Bạn có thể sao chép và lưu vào file `CopyPaste.txt`.
+
+````
+# Bài Tập Thực Hành C
+
+## 1. So sánh số / Phép toán đơn giản
+
+### Bài 1.1: Kiểm tra số lẻ
+**Ý nghĩa**: Nhập một số nguyên `a` và kiểm tra xem nó có phải là số lẻ không.
+```c
+int checkOdd(int a) {
+    if (a % 2 != 0) {
+        printf("a is odd\n");
+        return 1;
+    }
+    printf("a is not odd\n");
+    return 0;
+}
+````
+
+### Bài 1.2: Kiểm tra điểm
+
+**Ý nghĩa**: Nhập một số thực `score` và kiểm tra xem điểm có nằm trong khoảng từ 5.0 đến 10.0 không.
+
+```c
+int checkScore(float score) {
+    if (score >= 5.0 && score <= 10.0) {
+        printf("Passed with the score: %.1f\n", score);
+        return 1;
+    }
+    printf("Failed with the score: %.1f\n", score);
+    return 0;
+}
+```
+
+### Bài 1.3: Tính chu vi hình vuông
+
+**Ý nghĩa**: Nhập độ dài cạnh của hình vuông `x` và tính chu vi.
+
+```c
+float calculatePerimeter(float x) {
+    float perimeter = 4 * x;
+    printf("Perimeter: %.3f\n", perimeter);
+    return perimeter;
+}
+```
+
+### Bài 1.4: Tính diện tích hình vuông
+
+**Ý nghĩa**: Nhập độ dài cạnh của hình vuông `x` và tính diện tích.
+
+```c
+float calculateArea(float x) {
+    float area = x * x;
+    printf("Area: %.2f\n", area);
+    return area;
+}
+```
+
+### Bài 1.5: So sánh hai số nguyên
+
+**Ý nghĩa**: Nhập hai số nguyên `a` và `b`, so sánh chúng.
+
+```c
+int compareIntegers(int a, int b) {
+    if (a >= b) {
+        printf("a >= b\n");
+        return 1;
+    }
+    printf("a < b\n");
+    return 0;
+}
+```
+
+### Bài 1.6: Tính trung bình ba số
+
+**Ý nghĩa**: Nhập ba số thực và tính trung bình.
+
+```c
+float calculateAverage(float nums[3]) {
+    float sum = 0;
+    for (int i = 0; i < 3; i++) {
+        sum += nums[i];
+    }
+    float avg = sum / 3;
+    printf("Average: %.2f\n", avg);
+    return avg;
+}
+```
+
+### Bài 1.7: Tính x/y
+
+**Ý nghĩa**: Nhập hai số thực `x` và `y` (y khác 0), tính x/y.
+
+```c
+float calculateDivision(float x, float y) {
+    float result = x / y;
+    printf("Result: %.3f\n", result);
+    return result;
+}
+```
+
+## 2. Tính toán sản phẩm / tổng / chia / trừ
+
+### Bài 2.1: Tính tổng ba số chẵn cuối cùng
+
+**Ý nghĩa**: Nhập một số nguyên không âm `n`, tính tổng ba số chẵn cuối cùng từ 0 đến `n`.
+
+```c
+int sumLastThreeEven(int n) {
+    int sum = 0, count = 0;
+    for (int i = n; i >= 0 && count < 3; i--) {
+        if (i % 2 == 0) {
+            sum += i;
+            count++;
+        }
+    }
+    printf("Sum of last three even numbers: %d\n", sum);
+    return sum;
+}
+```
+
+### Bài 2.2: Tính tổng các số chẵn nhỏ hơn hoặc bằng n
+
+**Ý nghĩa**: Nhập một số nguyên không âm `n`, tính tổng các số chẵn nhỏ hơn hoặc bằng `n`.
+
+```c
+int sumEvenLessThanEqual(int n) {
+    int sum = 0;
+    for (int i = 0; i <= n; i++) {
+        if (i % 2 == 0) {
+            sum += i;
+        }
+    }
+    printf("Sum of even numbers <= n: %d\n", sum);
+    return sum;
+}
+```
+
+### Bài 2.3: Tính tổng các số chẵn trong sáu số nhập vào
+
+**Ý nghĩa**: Nhập sáu số nguyên, tính tổng các số chẵn.
+
+```c
+int sumEvenInSixNumbers(int nums[6]) {
+    int sum = 0;
+    for (int i = 0; i < 6; i++) {
+        if (nums[i] % 2 == 0) {
+            sum += nums[i];
+        }
+    }
+    printf("Sum of even numbers: %d\n", sum);
+    return sum;
+}
+```
+
+### Bài 2.4: Tính tổng các số lẻ trong mảng
+
+**Ý nghĩa**: Nhập mảng số nguyên `n`, tính tổng các số lẻ.
+
+```c
+int sumOddInArray(int n, int elements[]) {
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        if (elements[i] % 2 != 0) {
+            sum += elements[i];
+        }
+    }
+    printf("Sum of odd numbers: %d\n", sum);
+    return sum;
+}
+```
+
+### Bài 2.5: Tính tổng các số nguyên trong mảng
+
+**Ý nghĩa**: Nhập mảng số nguyên `n`, tính tổng tất cả các số.
+
+```c
+int sumOfArray(int n, int arr[]) {
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        sum += arr[i];
+    }
+    printf("Sum of array: %d\n", sum);
+    return sum;
+}
+```
+
+### Bài 2.6: Tính tổng bình phương các số chẵn
+
+**Ý nghĩa**: Nhập mảng số nguyên `n`, tính tổng bình phương các số chẵn.
+
+```c
+int sumSquareOfEven(int n, int array[]) {
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        if (array[i] % 2 == 0) {
+            sum += array[i] * array[i];
+        }
+    }
+    printf("Sum of squares of even numbers: %d\n", sum);
+    return sum;
+}
+```
+
+### Bài 2.7: Tính tổng chữ số đầu và cuối
+
+**Ý nghĩa**: Nhập một số nguyên `n`, tính tổng chữ số đầu và cuối.
+
+```c
+int sumFirstAndLastDigit(int n) {
+    int first_digit, last_digit;
+    last_digit = n % 10;
+    while (n >= 10) {
+        n /= 10;
+    }
+    first_digit = n;
+    printf("Sum of first and last digits: %d\n", first_digit + last_digit);
+    return first_digit + last_digit;
+}
+```
+
+### Bài 2.8: Tính tổng các chữ số
+
+**Ý nghĩa**: Nhập một số nguyên `n`, tính tổng tất cả các chữ số.
+
+```c
+int sumOfDigits(int n) {
+    int sum = 0;
+    while (n != 0) {
+        sum += n % 10;
+        n /= 10;
+    }
+    printf("Sum of digits: %d\n", sum);
+    return sum;
+}
+```
+
+### Bài 2.9: Kiểm tra số nguyên tố
+
+**Ý nghĩa**: Nhập một số nguyên `n`, kiểm tra xem nó có phải là số nguyên tố không.
+
+```c
+int checkPrime(int n) {
+    if (n <= 1) return 0;
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+```
+
+### Bài 2.10: Tính giai thừa
+
+**Ý nghĩa**: Nhập một số nguyên không âm `n`, tính giai thừa của nó.
+
+```c
+unsigned long long factorial(int n) {
+    if (n == 0) return 1;
+    unsigned long long result = 1;
+    for (int i = 1; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+```
+
+## 3. Vấn đề sắp xếp
+
+### Bài 3.1: Tìm số chẵn lớn nhất
+
+**Ý nghĩa**: Nhập năm số nguyên, tìm số chẵn lớn nhất.
+
+```c
+int findMaxEven(int nums[5]) {
+    int max_even = -1;
+    for (int i = 0; i < 5; i++) {
+        if (nums[i] % 2 == 0 && nums[i] > max_even) {
+            max_even = nums[i];
+        }
+    }
+    if (max_even != -1) {
+        printf("Max even number: %d\n", max_even);
+    } else {
+        printf("No even number\n");
+    }
+    return max_even;
+}
+```
+
+### Bài 3.2: Hoán đổi số chẵn lớn nhất và nhỏ nhất
+
+**Ý nghĩa**: Nhập mảng số nguyên `n`, hoán đổi vị trí số chẵn lớn nhất và nhỏ nhất.
+
+```c
+int* swapMaxMinEven(int n, int arr[]) {
+    int max_even = -1, min_even = 101, max_index = -1, min_index = -1;
+
+    for (int i = 0; i < n; i++) {
+        if (arr[i] % 2 == 0) {
+            if (arr[i] > max_even) {
+                max_even = arr[i];
+                max_index = i;
+            }
+            if (arr[i] < min_even) {
+                min_even = arr[i];
+                min_index = i;
+            }
+        }
+    }
+
+    if (max_index != -1 && min_index != -1) {
+        int temp = arr[max_index];
+        arr[max_index] = arr[min_index];
+        arr[min_index] = temp;
+    }
+
+    return arr;
+}
+```
+
+## 4. In hình dạng
+
+### Bài 4.1: In hình tháp ngược
+
+**Ý nghĩa**: Nhập số nguyên `n`, in ra hình tháp ngược.
+
+```c
+void printInvertedPyramid(int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < i; j++) {
+            printf(" ");
+        }
+        for (int j = 0; j < (n - i) * 2 - 1; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+```
+
+## 5. Vấn đề mảng
+
+### Bài 5.1: Kiểm tra tính đối xứng
+
+**Ý nghĩa**: Nhập mảng số nguyên `n`, kiểm tra tính đối xứng.
+
+```c
+int checkSymmetry(int n, int arr[]) {
+    int is_symmetric = 1;
+    for (int i = 0; i < n / 2; i++) {
+        if (arr[i] != arr[n - 1 - i]) {
+            is_symmetric = 0;
+            break;
+        }
+    }
+    printf("%d\n", is_symmetric);
+    return is_symmetric;
+}
+```
+
+### Bài 5.2: Tìm cặp số có tổng bằng một giá trị cho trước
+
+**Ý nghĩa**: Nhập mảng số nguyên `n`, tìm cặp số có tổng bằng một giá trị cho trước.
+
+```c
+int* findPairWithSum(int n, int arr[], int sum, int* found) {
+    static int result[2];
+    *found = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] + arr[j] == sum) {
+                result[0] = arr[i];
+                result[1] = arr[j];
+                *found = 1;
+                return result;
+            }
+        }
+    }
+    return result;
+}
+```
+
+## 6. Vấn đề chuỗi
+
+### Bài 6.1: Sắp xếp ký tự
+
+**Ý nghĩa**: Nhập bốn ký tự và sắp xếp chúng theo thứ tự bảng chữ cái.
+
+```c
+char* sortCharacters(char chars[4]) {
+    for (int i = 0; i < 4; i++) {
+        for (int j = i + 1; j < 4; j++) {
+            if (chars[i] > chars[j]) {
+                char temp = chars[i];
+                chars[i] = chars[j];
+                chars[j] = temp;
+            }
+        }
+    }
+    return chars;
+}
+```
+
+### Bài 6.2: Tìm ký tự giữa trong chuỗi
+
+**Ý nghĩa**: Nhập chuỗi có số ký tự lẻ, in ra 5 ký tự giữa.
+
+```c
+char* printMiddleCharacters(char str[]) {
+    static char result[6];
+    int len = strlen(str);
+    if (len % 2 == 1 && len >= 5) {
+        int mid = len / 2;
+        strncpy(result, &str[mid-2], 5);
+        result[5] = '\0';
+        return result;
+    }
+    return NULL;
+}
+```
+
+## 7. Vấn đề mảng nâng cao
+
+### Bài 7.1: Tìm số chẵn xuất hiện nhiều nhất
+
+**Ý nghĩa**: Nhập mảng 7 số nguyên, tìm số chẵn xuất hiện nhiều nhất.
+
+```c
+int findMostFrequentEven(int nums[7]) {
+    int count[101] = {0}; // Giả sử số chẵn từ 0 đến 100
+    for (int i = 0; i < 7; i++) {
+        if (nums[i] % 2 == 0) {
+            count[nums[i]]++;
+        }
+    }
+
+    int max_count = 0, most_frequent = -1;
+    for (int i = 0; i < 101; i++) {
+        if (count[i] > max_count) {
+            max_count = count[i];
+            most_frequent = i;
+        }
+    }
+
+    return most_frequent;
+}
+```
+
+### Bài 7.2: Tìm số hai chữ số xuất hiện nhiều nhất
+
+**Ý nghĩa**: Nhập mảng 7 số nguyên, tìm số hai chữ số xuất hiện nhiều nhất.
+
+```c
+int findMostFrequentTwoDigit(int nums[7]) {
+    int count[100] = {0}; // Giả sử số hai chữ số từ 10 đến 99
+    for (int i = 0; i < 7; i++) {
+        if (nums[i] >= 10 && nums[i] < 100) {
+            count[nums[i]]++;
+        }
+    }
+
+    int max_count = 0, most_frequent = -1;
+    for (int i = 10; i < 100; i++) {
+        if (count[i] > max_count) {
+            max_count = count[i];
+            most_frequent = i;
+        }
+    }
+
+    return most_frequent;
+}
+```
+
+### Bài 7.3: In các số duy nhất
+
+**Ý nghĩa**: Nhập mảng n số nguyên, in ra các số duy nhất theo thứ tự tăng dần.
+
+```c
+int* printUniqueNumbers(int n, int arr[], int* unique_count) {
+    static int unique[100];
+    *unique_count = 0;
+
+    for (int i = 0; i < n; i++) {
+        int found = 0;
+        for (int j = 0; j < *unique_count; j++) {
+            if (arr[i] == unique[j]) {
+                found = 1;
+                break;
+            }
+        }
+        if (!found) {
+            unique[(*unique_count)++] = arr[i];
+        }
+    }
+
+    // Sắp xếp các số duy nhất
+    for (int i = 0; i < *unique_count; i++) {
+        for (int j = i + 1; j < *unique_count; j++) {
+            if (unique[i] > unique[j]) {
+                int temp = unique[i];
+                unique[i] = unique[j];
+                unique[j] = temp;
+            }
+        }
+    }
+
+    return unique;
+}
+```
+
+### Bài 7.4: Xóa số ở vị trí cho trước
+
+**Ý nghĩa**: Nhập mảng n số nguyên và vị trí p, xóa số ở vị trí p.
+
+```c
+int* removeAtPosition(int* n, int arr[], int p) {
+    if (p < 1 || p > *n) {
+        return arr;
+    }
+
+    for (int i = p - 1; i < *n - 1; i++) {
+        arr[i] = arr[i + 1];
+    }
+    (*n)--;
+    return arr;
+}
+```
+
+## 8. Vấn đề đánh số
+
+### Bài 8.1: Tính tích các chữ số
+
+**Ý nghĩa**: Nhập một số nguyên n, tính tích tất cả các chữ số.
+
+```c
+int productOfDigits(int n) {
+    int product = 1;
+    while (n != 0) {
+        product *= n % 10;
+        n /= 10;
+    }
+    return product;
+}
+```
+
+### Bài 8.2: Kiểm tra số hoàn hảo
+
+**Ý nghĩa**: Nhập một số nguyên n, kiểm tra xem nó có phải là số hoàn hảo không.
+
+```c
+int checkPerfectNumber(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n / 2; i++) {
+        if (n % i == 0) {
+            sum += i;
+        }
+    }
+    return (sum == n);
+}
+```
+
+### Bài 8.3: Kiểm tra số mũ của 2
+
+**Ý nghĩa**: Nhập một số nguyên a, kiểm tra xem nó có phải là số mũ của 2 không.
+
+```c
+int checkPowerOfTwo(int a) {
+    if (a <= 0) return -1;
+    int n = 0;
+    while (a > 1) {
+        if (a % 2 != 0) return -1;
+        a /= 2;
+        n++;
+    }
+    return n;
+}
+```
+
+### Bài 8.4: Kiểm tra số nguyên tố
+
+**Ý nghĩa**: Nhập một số nguyên n, kiểm tra xem nó có phải là số nguyên tố không.
+
+```c
+int checkPrime(int n) {
+    if (n <= 1) return 0;
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+```
+
+### Bài 8.5: Kiểm tra năm nhuận
+
+**Ý nghĩa**: Nhập một năm n, kiểm tra xem nó có phải là năm nhuận không.
+
+```c
+int checkLeapYear(int n) {
+    return ((n % 4 == 0 && n % 100 != 0) || (n % 400 == 0));
+}
+```
+
+## 9. Các bài toán thường gặp khác
+
+### Bài 9.1: Tính số Fibonacci
+
+**Ý nghĩa**: Nhập một số nguyên không âm `n`, tính số Fibonacci thứ n.
+
+```c
+int fibonacci(int n) {
+    if (n <= 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+```
+
+### Bài 9.2: Đảo ngược một chuỗi
+
+**Ý nghĩa**: Nhập một chuỗi và đảo ngược nó.
+
+```c
+void reverseString(char str[]) {
+    int n = strlen(str);
+    for (int i = 0; i < n / 2; i++) {
+        char temp = str[i];
+        str[i] = str[n - i - 1];
+        str[n - i - 1] = temp;
+    }
+}
+```
+
+### Bài 9.3: Tìm số lớn nhất trong mảng
+
+**Ý nghĩa**: Nhập mảng số nguyên và tìm số lớn nhất trong mảng.
+
+```c
+int findMaxInArray(int n, int arr[]) {
+    int max = arr[0];
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    return max;
+}
+```
+
+### Bài 9.4: Tính tổng các số nguyên tố trong mảng
+
+**Ý nghĩa**: Nhập mảng số nguyên và tính tổng các số nguyên tố.
+
+```c
+int sumOfPrimesInArray(int n, int arr[]) {
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        if (checkPrime(arr[i])) {
+            sum += arr[i];
+        }
+    }
+    return sum;
+}
+```
+
+### Bài 9.5: Kiểm tra chuỗi Palindrome
+
+**Ý nghĩa**: Nhập một chuỗi và kiểm tra xem nó có phải là palindrome không.
+
+```c
+int isPalindrome(char str[]) {
+    int n = strlen(str);
+    for (int i = 0; i < n / 2; i++) {
+        if (str[i] != str[n - i - 1]) {
+            return 0;
+        }
+    }
+    return 1;
+}
+```
