@@ -2654,7 +2654,8 @@ struct SinhVien {
     float diemAnh;
 };
 
-void nhapSinhVien(struct SinhVien sv) {
+struct SinhVien nhapSinhVien() {
+    struct SinhVien sv;
     printf("Nhap ten: ");
     scanf("%s", sv.ten);
     printf("Nhap tuoi: ");
@@ -2665,8 +2666,14 @@ void nhapSinhVien(struct SinhVien sv) {
     scanf("%f", &sv.diemVan);
     printf("Nhap diem Anh: ");
     scanf("%f", &sv.diemAnh);
+    return sv;
 }
 
+
+
+float tinhDiemTrungBinh(struct SinhVien sv) {
+    return (sv.diemToan + sv.diemVan + sv.diemAnh) / 3;
+}
 void inSinhVien(struct SinhVien sv) {
     printf("\nThong tin sinh vien:\n");
     printf("Ten: %s\n", sv.ten);
@@ -2677,17 +2684,14 @@ void inSinhVien(struct SinhVien sv) {
     printf("Diem Trung Binh: %.2f\n", tinhDiemTrungBinh(sv));
 }
 
-float tinhDiemTrungBinh(struct SinhVien sv) {
-    return (sv.diemToan + sv.diemVan + sv.diemAnh) / 3;
-}
-
 int main() {
     struct SinhVien sv;
     printf("Nhap thong tin sinh vien:\n");
-    nhapSinhVien(sv);
+    sv = nhapSinhVien();  // Gán giá tr? tr? v? t? hàm
     inSinhVien(sv);
     return 0;
 }
+
 ```
 
 ### **IV. TỔNG KẾT**
