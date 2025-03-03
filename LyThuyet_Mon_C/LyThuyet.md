@@ -136,7 +136,14 @@ Total score = 0.1*Q + 0.1*W + 0.1*AS + 0.4*PE + 0.3\*FE
 - [13.3. Ví dụ về hàm đệ quy (FUOVERFLOW - DO NOT COPY)](#133-ví-dụ-về-hàm-đệ-quy)
 - [13.4. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#134-bài-tập-thực-hành)
 
-## [Chương 14: Cấu Trúc Dữ Liệu Nâng Cao (FUOVERFLOW - DO NOT COPY)](#chương-14-cấu-trúc-dữ-liệu-nâng-cao)
+## [Chương 14: Struct (FUOVERFLOW - DO NOT COPY)](#chương-13-hàm-đệ-quy)
+
+- [14.1. Khái niệm Struc (FUOVERFLOW - DO NOT COPY)](#131-giới-thiệu-về-hàm-đệ-quy)
+- [14.2. Cách khai báo Struct (FUOVERFLOW - DO NOT COPY)](#132-cú-pháp-hàm-đệ-quy)
+- [14.3. Khai báo Biến Struct (FUOVERFLOW - DO NOT COPY)](#133-ví-dụ-về-hàm-đệ-quy)
+- [14.5. Bài tập thực hành (FUOVERFLOW - DO NOT COPY)](#134-bài-tập-thực-hành)
+
+## [Chương 15: Cấu Trúc Dữ Liệu Nâng Cao (FUOVERFLOW - DO NOT COPY)](#chương-14-cấu-trúc-dữ-liệu-nâng-cao)
 
 - [14.1. Giới thiệu về cấu trúc dữ liệu nâng cao (FUOVERFLOW - DO NOT COPY)](#141-giới-thiệu-về-cấu-trúc-dữ-liệu-nâng-cao)
 - [14.2. Danh sách liên kết (FUOVERFLOW - DO NOT COPY)](#142-danh-sách-liên-kết)
@@ -2549,9 +2556,154 @@ int tinhTong(int n) {
 
 ### 14.1. Giới Thiệu về Cấu Trúc Dữ Liệu Nâng Cao
 
+#### **1. Khái niệm Struct**
+
+- `struct` (viết tắt của structure) là một kiểu dữ liệu do người dùng định nghĩa.
+- Dùng để nhóm nhiều biến có kiểu khác nhau vào cùng một đối tượng.
+
+#### **2. Cách khai báo Struct**
+
+##### **Công thức chung:**
+
+```c
+struct TenStruct {
+    kieu_du_lieu ten_bien1;
+    kieu_du_lieu ten_bien2;
+    ...
+};
+```
+
+##### **Ví dụ:**
+
+```c
+struct SinhVien {
+    char ten[50];
+    int tuoi;
+    float diemToan;
+    float diemVan;
+    float diemAnh;
+};
+```
+
+#### **3. Khai báo Biến Struct**
+
+- Có thể khai báo biến struct theo hai cách:
+
+**Cách 1: Khai báo sau khi định nghĩa struct**
+
+```c
+struct SinhVien {
+    char ten[50];
+    int tuoi;
+    float diemToan;
+    float diemVan;
+    float diemAnh;
+};
+
+struct SinhVien sv1, sv2;
+```
+
+**Cách 2: Khai báo biến ngay khi định nghĩa struct**
+
+```c
+struct SinhVien {
+    char ten[50];
+    int tuoi;
+    float diemToan;
+    float diemVan;
+    float diemAnh;
+} sv1, sv2;
+```
+
+#### **4. Truy cập Dữ Liệu Trong Struct**
+
+- Dùng dấu `.` để truy cập các thành phần trong struct.
+
+```c
+sv1.tuoi = 20;
+printf("Tuoi: %d\n", sv1.tuoi);
+```
+
+#### **5. Struct Kèm Theo Những Giá Trị Ban Đầu**
+
+```c
+struct SinhVien sv1 = {"Nguyen Van A", 19, 8.5, 7.0, 9.0};
+```
+
+#### **6. Struct Trong Mảng**
+
+```c
+struct SinhVien ds[2] = {
+    {"Tran Van B", 20, 7.5, 8.0, 6.5},
+    {"Le Thi C", 21, 8.0, 7.5, 9.0}
+};
+printf("Ten sinh vien dau tien: %s\n", ds[0].ten);
+```
+
+#### **7. Thêm Hàm Trong Struct**
+
+##### **Ví dụ:** Hàm nhập, xuất thông tin sinh viên và tính điểm trung bình
+
+```c
+#include <stdio.h>
+
+struct SinhVien {
+    char ten[50];
+    int tuoi;
+    float diemToan;
+    float diemVan;
+    float diemAnh;
+};
+
+void nhapSinhVien(struct SinhVien sv) {
+    printf("Nhap ten: ");
+    scanf("%s", sv.ten);
+    printf("Nhap tuoi: ");
+    scanf("%d", &sv.tuoi);
+    printf("Nhap diem Toan: ");
+    scanf("%f", &sv.diemToan);
+    printf("Nhap diem Van: ");
+    scanf("%f", &sv.diemVan);
+    printf("Nhap diem Anh: ");
+    scanf("%f", &sv.diemAnh);
+}
+
+void inSinhVien(struct SinhVien sv) {
+    printf("\nThong tin sinh vien:\n");
+    printf("Ten: %s\n", sv.ten);
+    printf("Tuoi: %d\n", sv.tuoi);
+    printf("Diem Toan: %.2f\n", sv.diemToan);
+    printf("Diem Van: %.2f\n", sv.diemVan);
+    printf("Diem Anh: %.2f\n", sv.diemAnh);
+    printf("Diem Trung Binh: %.2f\n", tinhDiemTrungBinh(sv));
+}
+
+float tinhDiemTrungBinh(struct SinhVien sv) {
+    return (sv.diemToan + sv.diemVan + sv.diemAnh) / 3;
+}
+
+int main() {
+    struct SinhVien sv;
+    printf("Nhap thong tin sinh vien:\n");
+    nhapSinhVien(sv);
+    inSinhVien(sv);
+    return 0;
+}
+```
+
+### **IV. TỔNG KẾT**
+
+- `struct` giúp nhóm nhiều biến liên quan lại.
+- Dùng `.` để truy cập thành viên.
+- Có thể sử dụng hàm để nhập, xuất và xử lý dữ liệu struct.
+
+## Chương 15: Cấu Trúc Dữ Liệu Nâng Cao (Không dạy nhưng rảnh thì đọc chứ cái này CSD đóa :)) )
+
+### 15.1. Giới Thiệu về Cấu Trúc Dữ Liệu Nâng Cao
+
 Cấu trúc dữ liệu nâng cao giúp tổ chức và quản lý dữ liệu hiệu quả hơn trong các ứng dụng phức tạp. Trong C, chúng ta thường sử dụng con trỏ để xây dựng các cấu trúc dữ liệu như danh sách liên kết, cây, và đồ thị.
 
-### 14.2. Danh Sách Liên Kết (Linked List)
+### 15.2. Danh Sách Liên Kết (Linked List)
 
 **Giới Thiệu:** Danh sách liên kết là một cấu trúc dữ liệu tuyến tính, trong đó mỗi phần tử (nút) chứa dữ liệu và một con trỏ đến phần tử tiếp theo.
 
@@ -2612,7 +2764,7 @@ int main() {
 }
 ```
 
-### 14.3. Cây (Tree)
+### 15.3. Cây (Tree)
 
 **Giới Thiệu:** Cây là một cấu trúc dữ liệu không tuyến tính, trong đó mỗi phần tử (nút) có thể có nhiều con. Một cây có một nút gốc và các nút con phân nhánh từ nút gốc.
 
@@ -2678,7 +2830,7 @@ int main() {
 }
 ```
 
-### 14.4. Bài Tập Thực Hành
+### 15.4. Bài Tập Thực Hành
 
 1. **Tạo Danh Sách Liên Kết Đơn và Thêm Phần Tử Vào Cuối Danh Sách:**
 
