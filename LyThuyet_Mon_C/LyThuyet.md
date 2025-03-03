@@ -2552,9 +2552,8 @@ int tinhTong(int n) {
 > - Cẩn thận với việc đệ quy quá nhiều lần (tràn bộ nhớ)
 > - Luôn đảm bảo có điểm dừng
 
-## Chương 14: Cấu Trúc Dữ Liệu Nâng Cao (Không dạy nhưng rảnh thì đọc chứ cái này CSD đóa :)) )
+## Chương 14: Struct
 
-### 14.1. Giới Thiệu về Cấu Trúc Dữ Liệu Nâng Cao
 
 #### **1. Khái niệm Struct**
 
